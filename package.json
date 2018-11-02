@@ -1,0 +1,16 @@
+{
+  "name": "@eave/design-tokens",
+  "version": "1.0.0",
+  "description": "design tokens for the system",
+  "main": "index.js",
+  "repository": "git@github.com:helloeave/design-tokens.git",
+  "author": "Shawn Patrick Rice <rice@shawnrice.org>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "node generate.js"
+  },
+  "dependencies": {
+    "teikn": "^0.1.0"
+  }
+}
