@@ -88,6 +88,58 @@ export const tokens = {
    */
   colorTextLightIcon: 'rgba(255, 255, 255, 0.5)',
   /**
+   *  Type: font
+   */
+  fontH1: '300 6rem / 1 Galano, Verdana, sans-serif',
+  /**
+   *  Type: font
+   */
+  fontH2: '300 3.75rem / 1 Galano, Verdana, sans-serif',
+  /**
+   *  Type: font
+   */
+  fontH3: '400 3rem / 1 Galano, Verdana, sans-serif',
+  /**
+   *  Type: font
+   */
+  fontH4: '400 2.125rem / 1 Galano, Verdana, sans-serif',
+  /**
+   *  Type: font
+   */
+  fontH5: '400 1.5rem / 1 Galano, Verdana, sans-serif',
+  /**
+   *  Type: font
+   */
+  fontH6: '500 1.25rem / 1 Galano, Verdana, sans-serif',
+  /**
+   *  Type: font
+   */
+  fontSubtitle: '400 1rem / 1 "Maison Neue", Helvetica, sans-serif',
+  /**
+   *  Type: font
+   */
+  fontSubtitleSmall: '500 0.875rem / 1 "Maison Neue", Helvetica, sans-serif',
+  /**
+   *  Type: font
+   */
+  fontBody: '400 1rem / 1 "Maison Neue", Helvetica, sans-serif',
+  /**
+   *  Type: font
+   */
+  fontBodySmall: '400 0.875rem / 1 "Maison Neue", Helvetica, sans-serif',
+  /**
+   *  Type: font
+   */
+  fontButton: '500 0.875rem / 1 "Maison Neue", Helvetica, sans-serif',
+  /**
+   *  Type: font
+   */
+  fontCaption: '400 0.75rem / 1 "Maison Neue", Helvetica, sans-serif',
+  /**
+   *  Type: font
+   */
+  fontOverline: '400 0.625rem / 1 "Maison Neue", Helvetica, sans-serif',
+  /**
    *  Type: font-family
    */
   fontFamilyH1: 'Galano, Verdana, sans-serif',
@@ -114,31 +166,31 @@ export const tokens = {
   /**
    *  Type: font-family
    */
-  fontFamilySubtitle: 'Maison Nueue, Helvetica, sans-serif',
+  fontFamilySubtitle: '"Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilySubtitleSmall: 'Maison Nueue, Helvetica, sans-serif',
+  fontFamilySubtitleSmall: '"Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyBody: 'Maison Nueue, Helvetica, sans-serif',
+  fontFamilyBody: '"Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyBodySmall: 'Maison Nueue, Helvetica, sans-serif',
+  fontFamilyBodySmall: '"Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyButton: 'Maison Nueue, Helvetica, sans-serif',
+  fontFamilyButton: '"Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyCaption: 'Maison Nueue, Helvetica, sans-serif',
+  fontFamilyCaption: '"Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyOverline: 'Maison Nueue, Helvetica, sans-serif',
+  fontFamilyOverline: '"Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-weight
    */
@@ -243,6 +295,58 @@ export const tokens = {
    *  Type: font-size
    */
   fontSizeOverline: '0.625rem',
+  /**
+   *  Type: letter-spacing
+   */
+  letterSpacingH1: '-0.09375rem',
+  /**
+   *  Type: letter-spacing
+   */
+  letterSpacingH2: '-0.03125rem',
+  /**
+   *  Type: letter-spacing
+   */
+  letterSpacingH3: '0rem',
+  /**
+   *  Type: letter-spacing
+   */
+  letterSpacingH4: '0.015625rem',
+  /**
+   *  Type: letter-spacing
+   */
+  letterSpacingH5: '0rem',
+  /**
+   *  Type: letter-spacing
+   */
+  letterSpacingH6: '0.009375rem',
+  /**
+   *  Type: letter-spacing
+   */
+  letterSpacingSubtitle: '0.009375rem',
+  /**
+   *  Type: letter-spacing
+   */
+  letterSpacingSubtitleSmall: '0.00625rem',
+  /**
+   *  Type: letter-spacing
+   */
+  letterSpacingBody: '0.03125rem',
+  /**
+   *  Type: letter-spacing
+   */
+  letterSpacingBodySmall: '0.015625rem',
+  /**
+   *  Type: letter-spacing
+   */
+  letterSpacingButton: '0.078125rem',
+  /**
+   *  Type: letter-spacing
+   */
+  letterSpacingCaption: '0.025rem',
+  /**
+   *  Type: letter-spacing
+   */
+  letterSpacingOverline: '0.09375rem',
   /**
    *  For things like switches, control boxes, etc...
    *  Type: time

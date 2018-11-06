@@ -1,188 +1,251 @@
 ///
-/// Teikn v0.1.1
-/// Generated Tue Nov 06 2018 16:32:17
+/// Teikn v0.1.0
+/// Generated Tue Nov 06 2018 17:36:50
 ///
 /// This file is generated and should be commited to source control
 ///
 
+// prettier-ignore
+$token-values: (
+  color-primary: #1f5644,
 
-$color-primary: #1f5644;
+  color-secondary: #daeae8,
 
-$color-secondary: #daeae8;
+  color-accent: #00aaa5,
 
-$color-accent: #00aaa5;
+  color-background: #fefefe,
 
-$color-background: #fefefe;
+  color-surface: #e4e4e4,
 
-$color-surface: #e4e4e4;
+  color-error: #b00020,
 
-$color-error: #b00020;
+  color-on-primary: #fefefe,
 
-$color-on-primary: #fefefe;
+  color-on-secondary: #010101,
 
-$color-on-secondary: #010101;
+  color-on-accent: #fefefe,
 
-$color-on-accent: #fefefe;
+  color-on-background: #010101,
 
-$color-on-background: #010101;
+  color-on-surface: #010101,
 
-$color-on-surface: #010101;
+  color-on-error: #fefefe,
 
-$color-on-error: #fefefe;
+  color-text-dark-primary: #000000,
 
-$color-text-dark-primary: #000000;
+  color-text-dark-secondary: #000000,
 
-$color-text-dark-secondary: #000000;
+  color-text-dark-hint: #000000,
 
-$color-text-dark-hint: #000000;
+  color-text-dark-disabled: #000000,
 
-$color-text-dark-disabled: #000000;
+  color-text-dark-icon: #000000,
 
-$color-text-dark-icon: #000000;
+  color-text-light-primary: #ffffff,
 
-$color-text-light-primary: #ffffff;
+  color-text-light-secondary: #ffffff,
 
-$color-text-light-secondary: #ffffff;
+  color-text-light-hint: #ffffff,
 
-$color-text-light-hint: #ffffff;
+  color-text-light-disabled: #ffffff,
 
-$color-text-light-disabled: #ffffff;
+  color-text-light-icon: #ffffff,
 
-$color-text-light-icon: #ffffff;
+  font-h-1: unquote('#{300 6rem / 1 Galano, Verdana, sans-serif}'),
 
-$font-family-h-1: Galano, Verdana, sans-serif;
+  font-h-2: unquote('#{300 3.75rem / 1 Galano, Verdana, sans-serif}'),
 
-$font-family-h-2: Galano, Verdana, sans-serif;
+  font-h-3: unquote('#{400 3rem / 1 Galano, Verdana, sans-serif}'),
 
-$font-family-h-3: Galano, Verdana, sans-serif;
+  font-h-4: unquote('#{400 2.125rem / 1 Galano, Verdana, sans-serif}'),
 
-$font-family-h-4: Galano, Verdana, sans-serif;
+  font-h-5: unquote('#{400 1.5rem / 1 Galano, Verdana, sans-serif}'),
 
-$font-family-h-5: Galano, Verdana, sans-serif;
+  font-h-6: unquote('#{500 1.25rem / 1 Galano, Verdana, sans-serif}'),
 
-$font-family-h-6: Galano, Verdana, sans-serif;
+  font-subtitle: unquote('#{400 1rem / 1 "Maison Neue", Helvetica, sans-serif}'),
 
-$font-family-subtitle: Maison Nueue, Helvetica, sans-serif;
+  font-subtitle-small: unquote('#{500 0.875rem / 1 "Maison Neue", Helvetica, sans-serif}'),
 
-$font-family-subtitle-small: Maison Nueue, Helvetica, sans-serif;
+  font-body: unquote('#{400 1rem / 1 "Maison Neue", Helvetica, sans-serif}'),
 
-$font-family-body: Maison Nueue, Helvetica, sans-serif;
+  font-body-small: unquote('#{400 0.875rem / 1 "Maison Neue", Helvetica, sans-serif}'),
 
-$font-family-body-small: Maison Nueue, Helvetica, sans-serif;
+  font-button: unquote('#{500 0.875rem / 1 "Maison Neue", Helvetica, sans-serif}'),
 
-$font-family-button: Maison Nueue, Helvetica, sans-serif;
+  font-caption: unquote('#{400 0.75rem / 1 "Maison Neue", Helvetica, sans-serif}'),
 
-$font-family-caption: Maison Nueue, Helvetica, sans-serif;
+  font-overline: unquote('#{400 0.625rem / 1 "Maison Neue", Helvetica, sans-serif}'),
 
-$font-family-overline: Maison Nueue, Helvetica, sans-serif;
+  font-family-h-1: unquote('#{Galano, Verdana, sans-serif}'),
 
-$font-weight-h-1: 300;
+  font-family-h-2: unquote('#{Galano, Verdana, sans-serif}'),
 
-$font-weight-h-2: 300;
+  font-family-h-3: unquote('#{Galano, Verdana, sans-serif}'),
 
-$font-weight-h-3: 400;
+  font-family-h-4: unquote('#{Galano, Verdana, sans-serif}'),
 
-$font-weight-h-4: 400;
+  font-family-h-5: unquote('#{Galano, Verdana, sans-serif}'),
 
-$font-weight-h-5: 400;
+  font-family-h-6: unquote('#{Galano, Verdana, sans-serif}'),
 
-$font-weight-h-6: 500;
+  font-family-subtitle: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
 
-$font-weight-subtitle: 400;
+  font-family-subtitle-small: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
 
-$font-weight-subtitle-small: 500;
+  font-family-body: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
 
-$font-weight-body: 400;
+  font-family-body-small: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
 
-$font-weight-body-small: 400;
+  font-family-button: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
 
-$font-weight-button: 500;
+  font-family-caption: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
 
-$font-weight-caption: 400;
+  font-family-overline: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
 
-$font-weight-overline: 400;
+  font-weight-h-1: 300,
 
-$font-size-h-1: 6rem;
+  font-weight-h-2: 300,
 
-$font-size-h-2: 3.75rem;
+  font-weight-h-3: 400,
 
-$font-size-h-3: 3rem;
+  font-weight-h-4: 400,
 
-$font-size-h-4: 2.125rem;
+  font-weight-h-5: 400,
 
-$font-size-h-5: 1.5rem;
+  font-weight-h-6: 500,
 
-$font-size-h-6: 1.25rem;
+  font-weight-subtitle: 400,
 
-$font-size-subtitle: 1rem;
+  font-weight-subtitle-small: 500,
 
-$font-size-subtitle-small: 0.875rem;
+  font-weight-body: 400,
 
-$font-size-body: 1rem;
+  font-weight-body-small: 400,
 
-$font-size-body-small: 0.875rem;
+  font-weight-button: 500,
 
-$font-size-button: 0.875rem;
+  font-weight-caption: 400,
 
-$font-size-caption: 0.75rem;
+  font-weight-overline: 400,
 
-$font-size-overline: 0.625rem;
+  font-size-h-1: 6rem,
 
-/// For things like switches, control boxes, etc...
-$duration-simple-small: 0.1s;
+  font-size-h-2: 3.75rem,
 
-/// For small dialogs, alerts, etc...
-$duration-simple-small-enter: .15s;
+  font-size-h-3: 3rem,
 
-/// For small dialogs, alerts, etc...
-$duration-simple-small-exit: 0.075s;
+  font-size-h-4: 2.125rem,
 
-/// For card transforms, etc...
-$duration-simple-medium: 0.225s;
+  font-size-h-5: 1.5rem,
 
-/// For card transforms, etc...
-$duration-simple-medium-enter: 0.25s;
+  font-size-h-6: 1.25rem,
 
-/// For card transforms, etc...
-$duration-simple-medium-exit: 0.2s;
+  font-size-subtitle: 1rem,
 
-/// For page transforms, etc...
-$duration-simple-large: 0.275s;
+  font-size-subtitle-small: 0.875rem,
 
-/// For card transforms, etc...
-$duration-simple-large-enter: 0.3s;
+  font-size-body: 1rem,
 
-/// For card transforms, etc...
-$duration-simple-large-exit: 0.25s;
+  font-size-body-small: 0.875rem,
 
-$timing-curve-decelerate: cubic-bezier(0, 0, .2, 1);
+  font-size-button: 0.875rem,
 
-$timing-curve-accelerate: cubic-bezier(.4, 0, 1, 1);
+  font-size-caption: 0.75rem,
 
-$timing-curve-standard: cubic-bezier(.4, 0, .2, 1);
+  font-size-overline: 0.625rem,
 
-$timing-curve-sharp: cubic-bezier(.4, 0, .6, 1);
+  letter-spacing-h-1: -0.09375rem,
 
-/// For items that should be on the page but not visible
-$elevation-z-hidden: -1;
+  letter-spacing-h-2: -0.03125rem,
 
-/// Used for setting a standard z-index
-$elevation-z-default: 1;
+  letter-spacing-h-3: 0rem,
 
-/// used for dropdowns
-$elevation-z-dropdown: 1000;
+  letter-spacing-h-4: 0.015625rem,
 
-/// Used for overlays and things that are supposed to mask the page so that other things above them can be afforded visual focus
-$elevation-z-overlay: 5000;
+  letter-spacing-h-5: 0rem,
 
-/// For popups and other modal elements with a high elevation
-$elevation-z-modal: 6000;
+  letter-spacing-h-6: 0.009375rem,
 
-/// Use for more prominent text
-$emphasis-high: 0.87;
+  letter-spacing-subtitle: 0.009375rem,
 
-/// Use for secondary text
-$emphasis-medium: 0.6;
+  letter-spacing-subtitle-small: 0.00625rem,
 
-/// Use for hints and things that are disabled
-$emphasis-disabled: 0.38;
+  letter-spacing-body: 0.03125rem,
+
+  letter-spacing-body-small: 0.015625rem,
+
+  letter-spacing-button: 0.078125rem,
+
+  letter-spacing-caption: 0.025rem,
+
+  letter-spacing-overline: 0.09375rem,
+
+  /// For things like switches, control boxes, etc...
+  duration-simple-small: 0.1s,
+
+  /// For small dialogs, alerts, etc...
+  duration-simple-small-enter: .15s,
+
+  /// For small dialogs, alerts, etc...
+  duration-simple-small-exit: 0.075s,
+
+  /// For card transforms, etc...
+  duration-simple-medium: 0.225s,
+
+  /// For card transforms, etc...
+  duration-simple-medium-enter: 0.25s,
+
+  /// For card transforms, etc...
+  duration-simple-medium-exit: 0.2s,
+
+  /// For page transforms, etc...
+  duration-simple-large: 0.275s,
+
+  /// For card transforms, etc...
+  duration-simple-large-enter: 0.3s,
+
+  /// For card transforms, etc...
+  duration-simple-large-exit: 0.25s,
+
+  timing-curve-decelerate: cubic-bezier(0, 0, .2, 1),
+
+  timing-curve-accelerate: cubic-bezier(.4, 0, 1, 1),
+
+  timing-curve-standard: cubic-bezier(.4, 0, .2, 1),
+
+  timing-curve-sharp: cubic-bezier(.4, 0, .6, 1),
+
+  /// For items that should be on the page but not visible
+  elevation-z-hidden: -1,
+
+  /// Used for setting a standard z-index
+  elevation-z-default: 1,
+
+  /// used for dropdowns
+  elevation-z-dropdown: 1000,
+
+  /// Used for overlays and things that are supposed to mask the page so that other things above them can be afforded visual focus
+  elevation-z-overlay: 5000,
+
+  /// For popups and other modal elements with a high elevation
+  elevation-z-modal: 6000,
+
+  /// Use for more prominent text
+  emphasis-high: 0.87,
+
+  /// Use for secondary text
+  emphasis-medium: 0.6,
+
+  /// Use for hints and things that are disabled
+  emphasis-disabled: 0.38,
+
+
+);
+
+@function get-token($name) {
+  @if (not map-has-key($token-values, $name)) {
+    @error "Token '#{$name}' does not exist.";
+  }
+  @return map-get($token-values, $name);
+}
