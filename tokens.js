@@ -88,6 +88,67 @@ export const tokens = {
    */
   colorTextLightIcon: 'rgba(255, 255, 255, 0.5)',
   /**
+   *  For things like switches, control boxes, etc...
+   *  Type: time
+   */
+  durationSimpleSmall: '0.1s',
+  /**
+   *  For small dialogs, alerts, etc...
+   *  Type: time
+   */
+  durationSimpleSmallEnter: '.15s',
+  /**
+   *  For small dialogs, alerts, etc...
+   *  Type: time
+   */
+  durationSimpleSmallExit: '0.075s',
+  /**
+   *  For card transforms, etc...
+   *  Type: time
+   */
+  durationSimpleMedium: '0.225s',
+  /**
+   *  For card transforms, etc...
+   *  Type: time
+   */
+  durationSimpleMediumEnter: '0.25s',
+  /**
+   *  For card transforms, etc...
+   *  Type: time
+   */
+  durationSimpleMediumExit: '0.2s',
+  /**
+   *  For page transforms, etc...
+   *  Type: time
+   */
+  durationSimpleLarge: '0.275s',
+  /**
+   *  For card transforms, etc...
+   *  Type: time
+   */
+  durationSimpleLargeEnter: '0.3s',
+  /**
+   *  For card transforms, etc...
+   *  Type: time
+   */
+  durationSimpleLargeExit: '0.25s',
+  /**
+   *  Type: timing function
+   */
+  timingCurveDecelerate: 'cubic-bezier(0, 0, .2, 1)',
+  /**
+   *  Type: timing function
+   */
+  timingCurveAccelerate: 'cubic-bezier(.4, 0, 1, 1)',
+  /**
+   *  Type: timing function
+   */
+  timingCurveStandard: 'cubic-bezier(.4, 0, .2, 1)',
+  /**
+   *  Type: timing function
+   */
+  timingCurveSharp: 'cubic-bezier(.4, 0, .6, 1)',
+  /**
    *  For items that should be on the page but not visible
    *  Type: integer
    */
@@ -112,6 +173,21 @@ export const tokens = {
    *  Type: integer
    */
   elevationZModal: 6000,
+  /**
+   *  Use for more prominent text
+   *  Type: alpha
+   */
+  emphasisHigh: 0.87,
+  /**
+   *  Use for secondary text
+   *  Type: alpha
+   */
+  emphasisMedium: 0.6,
+  /**
+   *  Use for hints and things that are disabled
+   *  Type: alpha
+   */
+  emphasisDisabled: 0.38,
 };
 
 export default tokens;

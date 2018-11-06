@@ -1,6 +1,6 @@
 ///
 /// Teikn v0.1.1
-/// Generated Tue Nov 06 2018 14:34:0
+/// Generated Tue Nov 06 2018 15:23:21
 ///
 /// This file is generated and should be commited to source control
 ///
@@ -50,6 +50,41 @@ $color-text-light-disabled: #ffffff;
 
 $color-text-light-icon: #ffffff;
 
+/// For things like switches, control boxes, etc...
+$duration-simple-small: 0.1s;
+
+/// For small dialogs, alerts, etc...
+$duration-simple-small-enter: .15s;
+
+/// For small dialogs, alerts, etc...
+$duration-simple-small-exit: 0.075s;
+
+/// For card transforms, etc...
+$duration-simple-medium: 0.225s;
+
+/// For card transforms, etc...
+$duration-simple-medium-enter: 0.25s;
+
+/// For card transforms, etc...
+$duration-simple-medium-exit: 0.2s;
+
+/// For page transforms, etc...
+$duration-simple-large: 0.275s;
+
+/// For card transforms, etc...
+$duration-simple-large-enter: 0.3s;
+
+/// For card transforms, etc...
+$duration-simple-large-exit: 0.25s;
+
+$timing-curve-decelerate: cubic-bezier(0, 0, .2, 1);
+
+$timing-curve-accelerate: cubic-bezier(.4, 0, 1, 1);
+
+$timing-curve-standard: cubic-bezier(.4, 0, .2, 1);
+
+$timing-curve-sharp: cubic-bezier(.4, 0, .6, 1);
+
 /// For items that should be on the page but not visible
 $elevation-z-hidden: -1;
 
@@ -64,3 +99,12 @@ $elevation-z-overlay: 5000;
 
 /// For popups and other modal elements with a high elevation
 $elevation-z-modal: 6000;
+
+/// Use for more prominent text
+$emphasis-high: 0.87;
+
+/// Use for secondary text
+$emphasis-medium: 0.6;
+
+/// Use for hints and things that are disabled
+$emphasis-disabled: 0.38;

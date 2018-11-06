@@ -1,43 +1,49 @@
 const Color = require('color');
 
+// This is just for our reference, they aren't pushed into the tokens
 const namedColors = {
-  winterWizard: '#9de0fc',
-  diamond: '#cff5ff',
-  bunker: '#2d2d2d',
+  alabaster: '#fafafa',
   aluminum: '#999898',
   ashGray: '#b7b7b7',
-  zircon: '#dfdfe1',
-  mercury: '#e4e4e4',
-  stone: '#f1efef',
-  alabaster: '#fafafa',
-  white: '#fefefe',
   black: '#010101',
-  sunglo: '#e36c68',
+  bunker: '#2d2d2d',
   carouselPink: '#fcecee',
+  creamCan: '#f7ce69',
+  deYork: '#6ebe7d',
+  diamond: '#cff5ff',
+  forest: '#1f5644',
   havelockBlue: '#5b90dc',
   hawkesBlue: '#e0ecfd',
-  deYork: '#6ebe7d',
-  whiteIce: '#e8fbf0',
-  creamCan: '#f7ce69',
-  offYellow: '#fef7e7',
-  red: '#b00020',
-  // NEW COLORS
+  mercury: '#e4e4e4',
   mystic: '#daeae8',
-  forest: '#1f5644',
+  offYellow: '#fef7e7',
   persianGreen: '#00aaa5',
+  red: '#b00020',
+  stone: '#f1efef',
+  sunglo: '#e36c68',
+  white: '#fefefe',
+  whiteIce: '#e8fbf0',
+  winterWizard: '#9de0fc',
+  zircon: '#dfdfe1',
 };
 
 const EMPHASIS = [
   {
     name: 'high',
+    usage: 'Use for more prominent text',
+    type: 'alpha',
     value: 0.87,
   },
   {
     name: 'medium',
+    usage: 'Use for secondary text',
+    type: 'alpha',
     value: 0.6,
   },
   {
     name: 'disabled',
+    usage: 'Use for hints and things that are disabled',
+    type: 'alpha',
     value: 0.38,
   },
 ];
@@ -184,6 +190,97 @@ const zlayers = [
   },
 ].reduce((acc, token) => [...acc, { ...token, name: [`elevation-z-${token.name}`] }], []);
 
-const tokens = [...colors, ...zlayers];
+// How long things should last
+const durations = [
+  {
+    name: 'simple-small',
+    type: 'time',
+    usage: 'For things like switches, control boxes, etc...',
+    value: '0.1s',
+  },
+  {
+    name: 'simple-small-enter',
+    type: 'time',
+    usage: 'For small dialogs, alerts, etc...',
+    value: '.15s',
+  },
+  {
+    name: 'simple-small-exit',
+    type: 'time',
+    usage: 'For small dialogs, alerts, etc...',
+    value: '0.075s',
+  },
+  {
+    name: 'simple-medium',
+    type: 'time',
+    usage: 'For card transforms, etc...',
+    value: '0.225s',
+  },
+  {
+    name: 'simple-medium-enter',
+    type: 'time',
+    usage: 'For card transforms, etc...',
+    value: '0.25s',
+  },
+  {
+    name: 'simple-medium-exit',
+    type: 'time',
+    usage: 'For card transforms, etc...',
+    value: '0.2s',
+  },
+  {
+    name: 'simple-large',
+    type: 'time',
+    usage: 'For page transforms, etc...',
+    value: '0.275s',
+  },
+  {
+    name: 'simple-large-enter',
+    type: 'time',
+    usage: 'For card transforms, etc...',
+    value: '0.3s',
+  },
+  {
+    name: 'simple-large-exit',
+    type: 'time',
+    usage: 'For card transforms, etc...',
+    value: '0.25s',
+  },
+].map(token => ({ ...token, name: `duration-${token.name}` }));
+
+// Timing functions for animations and transitions
+const timings = [
+  {
+    name: 'decelerate',
+    type: 'timing function',
+    value: 'cubic-bezier(0, 0, .2, 1)',
+  },
+  {
+    name: 'accelerate',
+    type: 'timing function',
+    value: 'cubic-bezier(.4, 0, 1, 1)',
+  },
+  {
+    name: 'standard',
+    type: 'timing function',
+    value: 'cubic-bezier(.4, 0, .2, 1)',
+  },
+  {
+    name: 'sharp',
+    type: 'timing function',
+    value: 'cubic-bezier(.4, 0, .6, 1)',
+  },
+].map(token => ({ ...token, name: `timing-curve-${token.name}` }));
+
+const tokens = [
+  // Add in all the colors
+  ...colors,
+  ...durations,
+  ...timings,
+  // Add in the base z-layers
+  ...zlayers,
+  // Add in the different text emphasis tokens
+  ...EMPHASIS.map(token => ({ ...token, name: `emphasis-${token.name}` })),
+];
 
 module.exports = tokens;
