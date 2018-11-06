@@ -88,6 +88,162 @@ export const tokens = {
    */
   colorTextLightIcon: 'rgba(255, 255, 255, 0.5)',
   /**
+   *  Type: font-family
+   */
+  fontFamilyH1: 'Galano, Verdana, sans-serif',
+  /**
+   *  Type: font-family
+   */
+  fontFamilyH2: 'Galano, Verdana, sans-serif',
+  /**
+   *  Type: font-family
+   */
+  fontFamilyH3: 'Galano, Verdana, sans-serif',
+  /**
+   *  Type: font-family
+   */
+  fontFamilyH4: 'Galano, Verdana, sans-serif',
+  /**
+   *  Type: font-family
+   */
+  fontFamilyH5: 'Galano, Verdana, sans-serif',
+  /**
+   *  Type: font-family
+   */
+  fontFamilyH6: 'Galano, Verdana, sans-serif',
+  /**
+   *  Type: font-family
+   */
+  fontFamilySubtitle: 'Maison Nueue, Helvetica, sans-serif',
+  /**
+   *  Type: font-family
+   */
+  fontFamilySubtitleSmall: 'Maison Nueue, Helvetica, sans-serif',
+  /**
+   *  Type: font-family
+   */
+  fontFamilyBody: 'Maison Nueue, Helvetica, sans-serif',
+  /**
+   *  Type: font-family
+   */
+  fontFamilyBodySmall: 'Maison Nueue, Helvetica, sans-serif',
+  /**
+   *  Type: font-family
+   */
+  fontFamilyButton: 'Maison Nueue, Helvetica, sans-serif',
+  /**
+   *  Type: font-family
+   */
+  fontFamilyCaption: 'Maison Nueue, Helvetica, sans-serif',
+  /**
+   *  Type: font-family
+   */
+  fontFamilyOverline: 'Maison Nueue, Helvetica, sans-serif',
+  /**
+   *  Type: font-weight
+   */
+  fontWeightH1: 300,
+  /**
+   *  Type: font-weight
+   */
+  fontWeightH2: 300,
+  /**
+   *  Type: font-weight
+   */
+  fontWeightH3: 400,
+  /**
+   *  Type: font-weight
+   */
+  fontWeightH4: 400,
+  /**
+   *  Type: font-weight
+   */
+  fontWeightH5: 400,
+  /**
+   *  Type: font-weight
+   */
+  fontWeightH6: 500,
+  /**
+   *  Type: font-weight
+   */
+  fontWeightSubtitle: 400,
+  /**
+   *  Type: font-weight
+   */
+  fontWeightSubtitleSmall: 500,
+  /**
+   *  Type: font-weight
+   */
+  fontWeightBody: 400,
+  /**
+   *  Type: font-weight
+   */
+  fontWeightBodySmall: 400,
+  /**
+   *  Type: font-weight
+   */
+  fontWeightButton: 500,
+  /**
+   *  Type: font-weight
+   */
+  fontWeightCaption: 400,
+  /**
+   *  Type: font-weight
+   */
+  fontWeightOverline: 400,
+  /**
+   *  Type: font-size
+   */
+  fontSizeH1: '6rem',
+  /**
+   *  Type: font-size
+   */
+  fontSizeH2: '3.75rem',
+  /**
+   *  Type: font-size
+   */
+  fontSizeH3: '3rem',
+  /**
+   *  Type: font-size
+   */
+  fontSizeH4: '2.125rem',
+  /**
+   *  Type: font-size
+   */
+  fontSizeH5: '1.5rem',
+  /**
+   *  Type: font-size
+   */
+  fontSizeH6: '1.25rem',
+  /**
+   *  Type: font-size
+   */
+  fontSizeSubtitle: '1rem',
+  /**
+   *  Type: font-size
+   */
+  fontSizeSubtitleSmall: '0.875rem',
+  /**
+   *  Type: font-size
+   */
+  fontSizeBody: '1rem',
+  /**
+   *  Type: font-size
+   */
+  fontSizeBodySmall: '0.875rem',
+  /**
+   *  Type: font-size
+   */
+  fontSizeButton: '0.875rem',
+  /**
+   *  Type: font-size
+   */
+  fontSizeCaption: '0.75rem',
+  /**
+   *  Type: font-size
+   */
+  fontSizeOverline: '0.625rem',
+  /**
    *  For things like switches, control boxes, etc...
    *  Type: time
    */
@@ -150,27 +306,27 @@ export const tokens = {
   timingCurveSharp: 'cubic-bezier(.4, 0, .6, 1)',
   /**
    *  For items that should be on the page but not visible
-   *  Type: integer
+   *  Type: z-index
    */
   elevationZHidden: -1,
   /**
    *  Used for setting a standard z-index
-   *  Type: integer
+   *  Type: z-index
    */
   elevationZDefault: 1,
   /**
    *  used for dropdowns
-   *  Type: integer
+   *  Type: z-index
    */
   elevationZDropdown: 1000,
   /**
    *  Used for overlays and things that are supposed to mask the page so that other things above them can be afforded visual focus
-   *  Type: integer
+   *  Type: z-index
    */
   elevationZOverlay: 5000,
   /**
    *  For popups and other modal elements with a high elevation
-   *  Type: integer
+   *  Type: z-index
    */
   elevationZModal: 6000,
   /**
