@@ -11,6 +11,7 @@
     "start": "node generate.js"
   },
   "dependencies": {
-    "teikn": "^0.1.0"
+    "color": "^3.1.0",
+    "teikn": "^0.1.1"
   }
 }

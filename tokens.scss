@@ -1,10 +1,66 @@
 ///
-/// Teikn v0.1.0
-/// Generated Fri Nov 02 2018 14:5:42
+/// Teikn v0.1.1
+/// Generated Tue Nov 06 2018 14:34:0
 ///
 /// This file is generated and should be commited to source control
 ///
 
 
-/// This is a test
-$test: transparent;
+$color-primary: #1f5644;
+
+$color-secondary: #daeae8;
+
+$color-accent: #00aaa5;
+
+$color-background: #fefefe;
+
+$color-surface: #e4e4e4;
+
+$color-error: #b00020;
+
+$color-on-primary: #fefefe;
+
+$color-on-secondary: #010101;
+
+$color-on-accent: #fefefe;
+
+$color-on-background: #010101;
+
+$color-on-surface: #010101;
+
+$color-on-error: #fefefe;
+
+$color-text-dark-primary: #000000;
+
+$color-text-dark-secondary: #000000;
+
+$color-text-dark-hint: #000000;
+
+$color-text-dark-disabled: #000000;
+
+$color-text-dark-icon: #000000;
+
+$color-text-light-primary: #ffffff;
+
+$color-text-light-secondary: #ffffff;
+
+$color-text-light-hint: #ffffff;
+
+$color-text-light-disabled: #ffffff;
+
+$color-text-light-icon: #ffffff;
+
+/// For items that should be on the page but not visible
+$elevation-z-hidden: -1;
+
+/// Used for setting a standard z-index
+$elevation-z-default: 1;
+
+/// used for dropdowns
+$elevation-z-dropdown: 1000;
+
+/// Used for overlays and things that are supposed to mask the page so that other things above them can be afforded visual focus
+$elevation-z-overlay: 5000;
+
+/// For popups and other modal elements with a high elevation
+$elevation-z-modal: 6000;

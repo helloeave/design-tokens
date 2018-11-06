@@ -64,10 +64,10 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
-teikn@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/teikn/-/teikn-0.1.0.tgz#3f92ab1b7b1ec1190702af7c2a4b73494bffe475"
-  integrity sha512-Tcim/yimy2gYNa1Z4yCexcYFJLVDzRh3vvvxPcKPfBj+SKMw3yo1q0Jhcf/ZVJz6BQic8qHebtJKKtqujljSYQ==
+teikn@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/teikn/-/teikn-0.1.1.tgz#38ec5e5aed14223aa347b57e454e9aa549d0b175"
+  integrity sha512-iCaBjBWFxCEXeFByOTgG/KDjsvDF5MqAceaDaCBdHOnSP4RYWnIF3dglgv6b0GlPC79J833PPQpR9LuMPIIw6g==
   dependencies:
     color "^3.1.0"
     lodash "^4.17.11"
