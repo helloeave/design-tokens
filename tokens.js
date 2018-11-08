@@ -26,6 +26,10 @@ export const tokens = {
   /**
    *  Type: color
    */
+  colorDisabled: '#999898',
+  /**
+   *  Type: color
+   */
   colorOnPrimary: '#fefefe',
   /**
    *  Type: color
@@ -47,6 +51,10 @@ export const tokens = {
    *  Type: color
    */
   colorOnError: '#fefefe',
+  /**
+   *  Type: color
+   */
+  colorOnDisabled: '#fefefe',
   /**
    *  Type: color
    */

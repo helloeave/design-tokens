@@ -1,4 +1,6 @@
+// const { TokenWriter } = require('teikn');
 const { TokenWriter } = require('teikn');
+const scss = require('teikn/src/generators/generator-map-scss');
 const tokens = require('./raw-tokens');
 
 new TokenWriter({
@@ -10,5 +12,14 @@ new TokenWriter({
   //   - the es modules JS version
   //   - the map w/ getter version of the scss
   //   - the json representation of the tokens
-  generators: ['es', 'mapScss', 'json'],
+  generators: [
+    'es',
+    {
+      name: 'mapScss',
+      generator: scss.generator,
+      extension: 'scss',
+      options: { preferRgba: true },
+    },
+    'json',
+  ],
 }).run(tokens);

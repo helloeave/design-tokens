@@ -83,6 +83,10 @@ const themeColors = [
     value: namedColors.red,
   },
   {
+    name: 'disabled',
+    value: namedColors.aluminum,
+  },
+  {
     name: 'on-primary',
     value: namedColors.white,
   },
@@ -104,6 +108,10 @@ const themeColors = [
   },
   {
     name: 'on-error',
+    value: namedColors.white,
+  },
+  {
+    name: 'on-disabled',
     value: namedColors.white,
   },
 ].map(type('color'));
