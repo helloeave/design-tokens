@@ -118,7 +118,7 @@ export const tokens = {
   /**
    *  Type: font
    */
-  fontH6: '500 1.25rem / 1 Galano, Verdana, sans-serif',
+  fontH6: '600 1.25rem / 1 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
@@ -126,7 +126,7 @@ export const tokens = {
   /**
    *  Type: font
    */
-  fontSubtitleSmall: '500 0.875rem / 1 "Maison Neue", Helvetica, sans-serif',
+  fontSubtitleSmall: '600 0.875rem / 1 "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
@@ -138,7 +138,7 @@ export const tokens = {
   /**
    *  Type: font
    */
-  fontButton: '500 0.875rem / 1 "Maison Neue", Helvetica, sans-serif',
+  fontButton: '600 0.875rem / 1 "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
@@ -222,7 +222,7 @@ export const tokens = {
   /**
    *  Type: font-weight
    */
-  fontWeightH6: 500,
+  fontWeightH6: 600,
   /**
    *  Type: font-weight
    */
@@ -230,7 +230,7 @@ export const tokens = {
   /**
    *  Type: font-weight
    */
-  fontWeightSubtitleSmall: 500,
+  fontWeightSubtitleSmall: 600,
   /**
    *  Type: font-weight
    */
@@ -242,7 +242,7 @@ export const tokens = {
   /**
    *  Type: font-weight
    */
-  fontWeightButton: 500,
+  fontWeightButton: 600,
   /**
    *  Type: font-weight
    */

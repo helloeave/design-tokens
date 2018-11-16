@@ -15,8 +15,8 @@ const fontFamily = family => fontFamilies[family];
 const fontWeights = {
   light: 300,
   normal: 400,
-  medium: 500,
-  bold: 600,
+  medium: 600,
+  bold: 700,
 };
 const fontWeight = weight => fontWeights[weight];
 const weight = [

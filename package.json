@@ -9,7 +9,8 @@
   "private": true,
   "scripts": {
     "start": "node generate.js",
-    "generate": "node generate.js"
+    "generate": "node generate.js",
+    "precommit": "yarn start"
   },
   "dependencies": {
     "color": "^3.1.0",
