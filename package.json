@@ -15,5 +15,8 @@
   "dependencies": {
     "color": "^3.1.0",
     "teikn": "^0.1.4"
+  },
+  "devDependencies": {
+    "husky": "^1.1.4"
   }
 }
