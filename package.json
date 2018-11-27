@@ -9,8 +9,7 @@
   "private": true,
   "scripts": {
     "start": "node generate.js",
-    "generate": "node generate.js",
-    "precommit": "yarn start"
+    "generate": "node generate.js"
   },
   "dependencies": {
     "color": "^3.1.0",
@@ -18,5 +17,10 @@
   },
   "devDependencies": {
     "husky": "^1.1.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn start"
+    }
   }
 }
