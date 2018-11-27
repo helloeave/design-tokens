@@ -24,17 +24,17 @@ const weight = [
   {
     name: 'h1',
     usage: '',
-    value: fontWeight('light'),
+    value: fontWeight('bold'),
   },
   {
     name: 'h2',
     usage: '',
-    value: fontWeight('light'),
+    value: fontWeight('bold'),
   },
   {
     name: 'h3',
     usage: '',
-    value: fontWeight('normal'),
+    value: fontWeight('bold'),
   },
   {
     name: 'h4',
@@ -94,17 +94,17 @@ const fontSizes = [
   {
     name: 'h1',
     usage: '',
-    value: toRem(96),
+    value: toRem(90),
   },
   {
     name: 'h2',
     usage: '',
-    value: toRem(60),
+    value: toRem(52),
   },
   {
     name: 'h3',
     usage: '',
-    value: toRem(48),
+    value: toRem(36),
   },
   {
     name: 'h4',

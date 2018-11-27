@@ -19,7 +19,7 @@ const namedColors = {
   mystic: '#daeae8',
   offYellow: '#fef7e7',
   persianGreen: '#00aaa5',
-  red: '#b00020',
+  red: '#fe4a49',
   stone: '#f1efef',
   sunglo: '#e36c68',
   white: '#fefefe',
@@ -104,7 +104,7 @@ const themeColors = [
   },
   {
     name: 'on-surface',
-    value: namedColors.black,
+    value: namedColors.forest,
   },
   {
     name: 'on-error',
