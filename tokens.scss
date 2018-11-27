@@ -1,6 +1,6 @@
 ///
 /// Teikn v0.1.4
-/// Generated Fri Nov 16 2018 14:44:42
+/// Generated Tue Nov 27 2018 15:7:44
 ///
 /// This file is generated and should be commited to source control
 ///
@@ -18,7 +18,7 @@ $token-values: (
 
   color-surface: rgb(228, 228, 228),
 
-  color-error: rgb(176, 0, 32),
+  color-error: rgb(254, 74, 73),
 
   color-disabled: rgb(153, 152, 152),
 
@@ -30,7 +30,7 @@ $token-values: (
 
   color-on-background: rgb(1, 1, 1),
 
-  color-on-surface: rgb(1, 1, 1),
+  color-on-surface: rgb(31, 86, 68),
 
   color-on-error: rgb(254, 254, 254),
 
@@ -56,11 +56,11 @@ $token-values: (
 
   color-text-light-icon: rgba(255, 255, 255, 0.5),
 
-  font-h-1: unquote('#{300 6rem / 1 Galano, Verdana, sans-serif}'),
+  font-h-1: unquote('#{700 5.625rem / 1 Galano, Verdana, sans-serif}'),
 
-  font-h-2: unquote('#{300 3.75rem / 1 Galano, Verdana, sans-serif}'),
+  font-h-2: unquote('#{700 3.25rem / 1 Galano, Verdana, sans-serif}'),
 
-  font-h-3: unquote('#{400 3rem / 1 Galano, Verdana, sans-serif}'),
+  font-h-3: unquote('#{700 2.25rem / 1 Galano, Verdana, sans-serif}'),
 
   font-h-4: unquote('#{400 2.125rem / 1 Galano, Verdana, sans-serif}'),
 
@@ -108,11 +108,11 @@ $token-values: (
 
   font-family-overline: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
 
-  font-weight-h-1: 300,
+  font-weight-h-1: 700,
 
-  font-weight-h-2: 300,
+  font-weight-h-2: 700,
 
-  font-weight-h-3: 400,
+  font-weight-h-3: 700,
 
   font-weight-h-4: 400,
 
@@ -134,11 +134,11 @@ $token-values: (
 
   font-weight-overline: 400,
 
-  font-size-h-1: 6rem,
+  font-size-h-1: 5.625rem,
 
-  font-size-h-2: 3.75rem,
+  font-size-h-2: 3.25rem,
 
-  font-size-h-3: 3rem,
+  font-size-h-3: 2.25rem,
 
   font-size-h-4: 2.125rem,
 

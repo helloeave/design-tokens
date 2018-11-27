@@ -22,7 +22,7 @@ export const tokens = {
   /**
    *  Type: color
    */
-  colorError: '#b00020',
+  colorError: '#fe4a49',
   /**
    *  Type: color
    */
@@ -46,7 +46,7 @@ export const tokens = {
   /**
    *  Type: color
    */
-  colorOnSurface: '#010101',
+  colorOnSurface: '#1f5644',
   /**
    *  Type: color
    */
@@ -98,15 +98,15 @@ export const tokens = {
   /**
    *  Type: font
    */
-  fontH1: '300 6rem / 1 Galano, Verdana, sans-serif',
+  fontH1: '700 5.625rem / 1 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH2: '300 3.75rem / 1 Galano, Verdana, sans-serif',
+  fontH2: '700 3.25rem / 1 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH3: '400 3rem / 1 Galano, Verdana, sans-serif',
+  fontH3: '700 2.25rem / 1 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
@@ -202,15 +202,15 @@ export const tokens = {
   /**
    *  Type: font-weight
    */
-  fontWeightH1: 300,
+  fontWeightH1: 700,
   /**
    *  Type: font-weight
    */
-  fontWeightH2: 300,
+  fontWeightH2: 700,
   /**
    *  Type: font-weight
    */
-  fontWeightH3: 400,
+  fontWeightH3: 700,
   /**
    *  Type: font-weight
    */
@@ -254,15 +254,15 @@ export const tokens = {
   /**
    *  Type: font-size
    */
-  fontSizeH1: '6rem',
+  fontSizeH1: '5.625rem',
   /**
    *  Type: font-size
    */
-  fontSizeH2: '3.75rem',
+  fontSizeH2: '3.25rem',
   /**
    *  Type: font-size
    */
-  fontSizeH3: '3rem',
+  fontSizeH3: '2.25rem',
   /**
    *  Type: font-size
    */
