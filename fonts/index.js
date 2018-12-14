@@ -305,7 +305,7 @@ const getSize = getFromMap(fontSizes);
 const getWeight = getFromMap(weight);
 
 const font = ({ family, size, weight }) =>
-  `${getWeight(weight)} ${getSize(size)} / 1 ${getFamily(family)}`;
+  `${getWeight(weight)} ${getSize(size)} / 1.2 ${getFamily(family)}`;
 const fonts = [
   'h1',
   'h2',

@@ -98,55 +98,55 @@ export const tokens = {
   /**
    *  Type: font
    */
-  fontH1: '700 5.625rem / 1 Galano, Verdana, sans-serif',
+  fontH1: '700 5.625rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH2: '700 3.25rem / 1 Galano, Verdana, sans-serif',
+  fontH2: '700 3.25rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH3: '700 2.25rem / 1 Galano, Verdana, sans-serif',
+  fontH3: '700 2.25rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH4: '400 2.125rem / 1 Galano, Verdana, sans-serif',
+  fontH4: '400 2.125rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH5: '400 1.5rem / 1 Galano, Verdana, sans-serif',
+  fontH5: '400 1.5rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH6: '600 1.25rem / 1 Galano, Verdana, sans-serif',
+  fontH6: '600 1.25rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontSubtitle: '400 1rem / 1 "Maison Neue", Helvetica, sans-serif',
+  fontSubtitle: '400 1rem / 1.2 "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontSubtitleSmall: '600 0.875rem / 1 "Maison Neue", Helvetica, sans-serif',
+  fontSubtitleSmall: '600 0.875rem / 1.2 "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontBody: '400 1rem / 1 "Maison Neue", Helvetica, sans-serif',
+  fontBody: '400 1rem / 1.2 "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontBodySmall: '400 0.875rem / 1 "Maison Neue", Helvetica, sans-serif',
+  fontBodySmall: '400 0.875rem / 1.2 "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontButton: '600 0.875rem / 1 "Maison Neue", Helvetica, sans-serif',
+  fontButton: '600 0.875rem / 1.2 "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontCaption: '400 0.75rem / 1 "Maison Neue", Helvetica, sans-serif',
+  fontCaption: '400 0.75rem / 1.2 "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontOverline: '400 0.625rem / 1 "Maison Neue", Helvetica, sans-serif',
+  fontOverline: '400 0.625rem / 1.2 "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-family
    */
