@@ -98,11 +98,11 @@ export const tokens = {
   /**
    *  Type: font
    */
-  fontH1: '700 5.625rem / 1.2 Galano, Verdana, sans-serif',
+  fontH1: '700 4.5rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH2: '700 3.25rem / 1.2 Galano, Verdana, sans-serif',
+  fontH2: '700 3rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
@@ -110,11 +110,11 @@ export const tokens = {
   /**
    *  Type: font
    */
-  fontH4: '400 2.125rem / 1.2 Galano, Verdana, sans-serif',
+  fontH4: '700 1.75rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH5: '400 1.5rem / 1.2 Galano, Verdana, sans-serif',
+  fontH5: '700 1.5rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
@@ -214,11 +214,11 @@ export const tokens = {
   /**
    *  Type: font-weight
    */
-  fontWeightH4: 400,
+  fontWeightH4: 700,
   /**
    *  Type: font-weight
    */
-  fontWeightH5: 400,
+  fontWeightH5: 700,
   /**
    *  Type: font-weight
    */
@@ -254,11 +254,11 @@ export const tokens = {
   /**
    *  Type: font-size
    */
-  fontSizeH1: '5.625rem',
+  fontSizeH1: '4.5rem',
   /**
    *  Type: font-size
    */
-  fontSizeH2: '3.25rem',
+  fontSizeH2: '3rem',
   /**
    *  Type: font-size
    */
@@ -266,7 +266,7 @@ export const tokens = {
   /**
    *  Type: font-size
    */
-  fontSizeH4: '2.125rem',
+  fontSizeH4: '1.75rem',
   /**
    *  Type: font-size
    */
