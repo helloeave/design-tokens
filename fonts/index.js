@@ -39,12 +39,12 @@ const weight = [
   {
     name: 'h4',
     usage: '',
-    value: fontWeight('normal'),
+    value: fontWeight('bold'),
   },
   {
     name: 'h5',
     usage: '',
-    value: fontWeight('normal'),
+    value: fontWeight('bold'),
   },
   {
     name: 'h6',
@@ -94,12 +94,12 @@ const fontSizes = [
   {
     name: 'h1',
     usage: '',
-    value: toRem(90),
+    value: toRem(72),
   },
   {
     name: 'h2',
     usage: '',
-    value: toRem(52),
+    value: toRem(48),
   },
   {
     name: 'h3',
@@ -109,7 +109,7 @@ const fontSizes = [
   {
     name: 'h4',
     usage: '',
-    value: toRem(34),
+    value: toRem(28),
   },
   {
     name: 'h5',
