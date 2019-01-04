@@ -18,7 +18,7 @@ export const tokens = {
   /**
    *  Type: color
    */
-  colorSurface: '#e4e4e4',
+  colorSurface: '#fafafa',
   /**
    *  Type: color
    */
