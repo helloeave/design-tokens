@@ -76,7 +76,7 @@ const themeColors = [
   },
   {
     name: 'surface',
-    value: namedColors.mercury,
+    value: namedColors.alabaster,
   },
   {
     name: 'error',
@@ -147,7 +147,7 @@ const colors = [
   ...themeColors.reduce((acc, token) => [...acc, { ...token, name: `color-${token.name}` }], []),
   ...Object.keys(textColors).reduce(
     (acc, name) => [...acc, { name: `color-${name}`, type: 'color', value: textColors[name] }],
-    []
+    [],
   ),
 ];
 
