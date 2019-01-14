@@ -3,9 +3,10 @@ const { prefix, type, getFromMap } = require('../utils');
 
 // This is just for our reference, they aren't pushed into the tokens
 const namedColors = {
-  alabaster: '#fafafa',
+  alabaster: '#fafafa', // should be deprecated in favor of aquaHaze
   aluminum: '#999898',
   ashGray: '#b7b7b7',
+  aquaHaze: '#f7fafa',
   black: '#010101',
   bunker: '#2d2d2d',
   carouselPink: '#fcecee',
@@ -76,7 +77,7 @@ const themeColors = [
   },
   {
     name: 'surface',
-    value: namedColors.alabaster,
+    value: namedColors.aquaHaze,
   },
   {
     name: 'error',
@@ -147,7 +148,7 @@ const colors = [
   ...themeColors.reduce((acc, token) => [...acc, { ...token, name: `color-${token.name}` }], []),
   ...Object.keys(textColors).reduce(
     (acc, name) => [...acc, { name: `color-${name}`, type: 'color', value: textColors[name] }],
-    [],
+    []
   ),
 ];
 
