@@ -1,6 +1,6 @@
 ///
 /// Teikn v0.1.4
-/// Generated Mon Jan 14 2019 17:52:16
+/// Generated Wed Jan 16 2019 12:48:37
 ///
 /// This file is generated and should be commited to source control
 ///
@@ -76,7 +76,7 @@ $token-values: (
 
   font-body-small: unquote('#{400 0.875rem / 1.2 "Maison Neue", Helvetica, sans-serif}'),
 
-  font-button: unquote('#{600 0.875rem / 1.2 "Maison Neue", Helvetica, sans-serif}'),
+  font-button: unquote('#{700 0.875rem / 1.2 Galano, Verdana, sans-serif}'),
 
   font-caption: unquote('#{400 0.75rem / 1.2 "Maison Neue", Helvetica, sans-serif}'),
 
@@ -102,7 +102,7 @@ $token-values: (
 
   font-family-body-small: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
 
-  font-family-button: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
+  font-family-button: unquote('#{Galano, Verdana, sans-serif}'),
 
   font-family-caption: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
 
@@ -128,7 +128,7 @@ $token-values: (
 
   font-weight-body-small: 400,
 
-  font-weight-button: 600,
+  font-weight-button: 700,
 
   font-weight-caption: 400,
 
