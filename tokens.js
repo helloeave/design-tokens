@@ -138,7 +138,7 @@ export const tokens = {
   /**
    *  Type: font
    */
-  fontButton: '600 0.875rem / 1.2 "Maison Neue", Helvetica, sans-serif',
+  fontButton: '700 0.875rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
@@ -190,7 +190,7 @@ export const tokens = {
   /**
    *  Type: font-family
    */
-  fontFamilyButton: '"Maison Neue", Helvetica, sans-serif',
+  fontFamilyButton: 'Galano, Verdana, sans-serif',
   /**
    *  Type: font-family
    */
@@ -242,7 +242,7 @@ export const tokens = {
   /**
    *  Type: font-weight
    */
-  fontWeightButton: 600,
+  fontWeightButton: 700,
   /**
    *  Type: font-weight
    */
