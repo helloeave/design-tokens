@@ -214,7 +214,7 @@ const family = [
   {
     name: 'button',
     usage: '',
-    value: fontFamily('primary'),
+    value: fontFamily('secondary'),
   },
   {
     name: 'caption',
