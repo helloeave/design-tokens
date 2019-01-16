@@ -74,7 +74,7 @@ const weight = [
   {
     name: 'button',
     usage: '',
-    value: fontWeight('medium'),
+    value: fontWeight('bold'),
   },
   {
     name: 'caption',
