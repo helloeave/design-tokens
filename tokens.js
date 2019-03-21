@@ -338,55 +338,63 @@ export const tokens = {
   /**
    *  Type: letter-spacing
    */
-  letterSpacingH1: '0rem',
+  letterSpacingH1: 'normal',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingH2: '0rem',
+  letterSpacingH2: 'normal',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingH3: '0rem',
+  letterSpacingH3: 'normal',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingH4: '0rem',
+  letterSpacingH4: 'normal',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingH5: '0rem',
+  letterSpacingH5: 'normal',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingH6: '0rem',
+  letterSpacingH6: 'normal',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingSubtitle: '0rem',
+  letterSpacingSubtitle: 'normal',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingSubtitleSmall: '0rem',
+  letterSpacingSubtitleSmall: 'normal',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingBody: '0rem',
+  letterSpacingBody: 'normal',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingBodySmall: '0.015625rem',
+  letterSpacingBodySmall: 'normal',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingButton: '0rem',
+  letterSpacingBodyTiny: 'normal',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingCaption: '0rem',
+  letterSpacingButtonLarge: 'normal',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingOverline: '0rem',
+  letterSpacingButton: 'normal',
+  /**
+   *  Type: letter-spacing
+   */
+  letterSpacingOverline: 'normal',
+  /**
+   *  Type: letter-spacing
+   */
+  letterSpacingLegal: 'normal',
   /**
    *  For things like switches, control boxes, etc...
    *  Type: time

@@ -1,6 +1,6 @@
 ///
 /// Teikn v0.1.4
-/// Generated Thu Mar 21 2019 15:12:13
+/// Generated Thu Mar 21 2019 15:53:25
 ///
 /// This file is generated and should be commited to source control
 ///
@@ -176,31 +176,35 @@ $token-values: (
 
   font-size-legal: 0.625rem,
 
-  letter-spacing-h-1: 0rem,
+  letter-spacing-h-1: normal,
 
-  letter-spacing-h-2: 0rem,
+  letter-spacing-h-2: normal,
 
-  letter-spacing-h-3: 0rem,
+  letter-spacing-h-3: normal,
 
-  letter-spacing-h-4: 0rem,
+  letter-spacing-h-4: normal,
 
-  letter-spacing-h-5: 0rem,
+  letter-spacing-h-5: normal,
 
-  letter-spacing-h-6: 0rem,
+  letter-spacing-h-6: normal,
 
-  letter-spacing-subtitle: 0rem,
+  letter-spacing-subtitle: normal,
 
-  letter-spacing-subtitle-small: 0rem,
+  letter-spacing-subtitle-small: normal,
 
-  letter-spacing-body: 0rem,
+  letter-spacing-body: normal,
 
-  letter-spacing-body-small: 0.015625rem,
+  letter-spacing-body-small: normal,
 
-  letter-spacing-button: 0rem,
+  letter-spacing-body-tiny: normal,
 
-  letter-spacing-caption: 0rem,
+  letter-spacing-button-large: normal,
 
-  letter-spacing-overline: 0rem,
+  letter-spacing-button: normal,
+
+  letter-spacing-overline: normal,
+
+  letter-spacing-legal: normal,
 
   /// For things like switches, control boxes, etc...
   duration-simple-small: 0.1s,

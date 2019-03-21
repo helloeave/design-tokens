@@ -352,67 +352,77 @@ const letterSpacing = [
   {
     name: 'h1',
     usage: '',
-    value: toRem(0),
+    value: 'normal',
   },
   {
     name: 'h2',
     usage: '',
-    value: toRem(0),
+    value: 'normal',
   },
   {
     name: 'h3',
     usage: '',
-    value: toRem(0),
+    value: 'normal',
   },
   {
     name: 'h4',
     usage: '',
-    value: toRem(0),
+    value: 'normal',
   },
   {
     name: 'h5',
     usage: '',
-    value: toRem(0),
+    value: 'normal',
   },
   {
     name: 'h6',
     usage: '',
-    value: toRem(0),
+    value: 'normal',
   },
   {
     name: 'subtitle',
     usage: '',
-    value: toRem(0),
+    value: 'normal',
   },
   {
     name: 'subtitle-small',
     usage: '',
-    value: toRem(0),
+    value: 'normal',
   },
   {
     name: 'body',
     usage: '',
-    value: toRem(0),
+    value: 'normal',
   },
   {
     name: 'body-small',
     usage: '',
-    value: toRem(0.25),
+    value: 'normal',
+  },
+  {
+    name: 'body-tiny',
+    usage: '',
+    value: 'normal',
+  },
+  {
+    name: 'button-large',
+    usage: '',
+    value: 'normal',
   },
   {
     name: 'button',
     usage: '',
-    value: toRem(0),
-  },
-  {
-    name: 'caption',
-    usage: '',
-    value: toRem(0),
+    value: 'normal',
   },
   {
     name: 'overline',
     usage: '',
-    value: toRem(0),
+    value: 'normal',
+  },
+  {
+    name: 'legal',
+    usage: '',
+    value: 'normal',
   },
 ]
   .map(prefix('letter-spacing'))
