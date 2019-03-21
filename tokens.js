@@ -58,23 +58,23 @@ export const tokens = {
   /**
    *  Type: color
    */
-  colorTextDarkPrimary: 'rgba(0, 0, 0, 0.87)',
+  colorTextDarkPrimary: 'rgba(45, 45, 45, 0.87)',
   /**
    *  Type: color
    */
-  colorTextDarkSecondary: 'rgba(0, 0, 0, 0.6)',
+  colorTextDarkSecondary: 'rgba(89, 88, 88, 0.87)',
   /**
    *  Type: color
    */
-  colorTextDarkHint: 'rgba(0, 0, 0, 0.38)',
+  colorTextDarkHint: 'rgba(45, 45, 45, 0.38)',
   /**
    *  Type: color
    */
-  colorTextDarkDisabled: 'rgba(0, 0, 0, 0.38)',
+  colorTextDarkDisabled: 'rgba(45, 45, 45, 0.38)',
   /**
    *  Type: color
    */
-  colorTextDarkIcon: 'rgba(0, 0, 0, 0.38)',
+  colorTextDarkIcon: 'rgba(45, 45, 45, 0.38)',
   /**
    *  Type: color
    */

@@ -21,6 +21,7 @@ const namedColors = {
   offYellow: '#fef7e7',
   persianGreen: '#00aaa5',
   red: '#fe4a49',
+  slate: '#595858',
   stone: '#f1efef',
   sunglo: '#e36c68',
   white: '#fefefe',
@@ -120,11 +121,11 @@ const themeColors = [
 const textColors = [
   {
     dark: {
-      primary: colorWithEmphasis('black', 'high'),
-      secondary: colorWithEmphasis('black', 'medium'),
-      hint: colorWithEmphasis('black', 'disabled'),
-      disabled: colorWithEmphasis('black', 'disabled'),
-      icon: colorWithEmphasis('black', 'disabled'),
+      primary: colorWithEmphasis(namedColors.bunker, 'high'),
+      secondary: colorWithEmphasis(namedColors.slate, 'high'),
+      hint: colorWithEmphasis(namedColors.bunker, 'disabled'),
+      disabled: colorWithEmphasis(namedColors.bunker, 'disabled'),
+      icon: colorWithEmphasis(namedColors.bunker, 'disabled'),
     },
   },
   {
