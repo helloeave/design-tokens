@@ -98,55 +98,63 @@ export const tokens = {
   /**
    *  Type: font
    */
-  fontH1: '700 4.5rem / 1.2 Galano, Verdana, sans-serif',
+  fontH1: '700 3rem / null Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH2: '700 3rem / 1.2 Galano, Verdana, sans-serif',
+  fontH2: '700 2.25rem / null Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH3: '700 2.25rem / 1.2 Galano, Verdana, sans-serif',
+  fontH3: '700 1.5rem / null Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH4: '700 1.75rem / 1.2 Galano, Verdana, sans-serif',
+  fontH4: '700 1.25rem / null Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH5: '700 1.5rem / 1.2 Galano, Verdana, sans-serif',
+  fontH5: '700 1rem / null Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH6: '600 1.25rem / 1.2 Galano, Verdana, sans-serif',
+  fontH6: '700 0.75rem / null Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontSubtitle: '400 1rem / 1.2 "Maison Neue", Helvetica, sans-serif',
+  fontSubtitle: '500 1.125rem / null "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontSubtitleSmall: '600 0.875rem / 1.2 "Maison Neue", Helvetica, sans-serif',
+  fontSubtitleSmall: '500 0.875rem / null "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontBody: '400 1rem / 1.2 "Maison Neue", Helvetica, sans-serif',
+  fontBody: '500 1rem / null "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontBodySmall: '400 0.875rem / 1.2 "Maison Neue", Helvetica, sans-serif',
+  fontBodySmall: '500 0.875rem / null "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontButton: '700 0.875rem / 1.2 Galano, Verdana, sans-serif',
+  fontBodyTiny: '500 0.8125rem / null "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontCaption: '400 0.75rem / 1.2 "Maison Neue", Helvetica, sans-serif',
+  fontButtonLarge: '700 1.25rem / null Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontOverline: '400 0.625rem / 1.2 "Maison Neue", Helvetica, sans-serif',
+  fontButton: '700 0.9375rem / null Galano, Verdana, sans-serif',
+  /**
+   *  Type: font
+   */
+  fontOverline: '500 0.75rem / null "Maison Neue", Helvetica, sans-serif',
+  /**
+   *  Type: font
+   */
+  fontLegal: '500 0.625rem / null "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-family
    */
@@ -190,15 +198,23 @@ export const tokens = {
   /**
    *  Type: font-family
    */
+  fontFamilyBodyTiny: '"Maison Neue", Helvetica, sans-serif',
+  /**
+   *  Type: font-family
+   */
+  fontFamilyButtonLarge: 'Galano, Verdana, sans-serif',
+  /**
+   *  Type: font-family
+   */
   fontFamilyButton: 'Galano, Verdana, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyCaption: '"Maison Neue", Helvetica, sans-serif',
+  fontFamilyOverline: '"Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyOverline: '"Maison Neue", Helvetica, sans-serif',
+  fontFamilyLegal: '"Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-weight
    */
@@ -222,23 +238,27 @@ export const tokens = {
   /**
    *  Type: font-weight
    */
-  fontWeightH6: 600,
+  fontWeightH6: 700,
   /**
    *  Type: font-weight
    */
-  fontWeightSubtitle: 400,
+  fontWeightSubtitle: 500,
   /**
    *  Type: font-weight
    */
-  fontWeightSubtitleSmall: 600,
+  fontWeightSubtitleSmall: 500,
   /**
    *  Type: font-weight
    */
-  fontWeightBody: 400,
+  fontWeightBody: 500,
   /**
    *  Type: font-weight
    */
-  fontWeightBodySmall: 400,
+  fontWeightBodySmall: 500,
+  /**
+   *  Type: font-weight
+   */
+  fontWeightBodyTiny: 500,
   /**
    *  Type: font-weight
    */
@@ -246,39 +266,43 @@ export const tokens = {
   /**
    *  Type: font-weight
    */
-  fontWeightCaption: 400,
+  fontWeightButtonLarge: 700,
   /**
    *  Type: font-weight
    */
-  fontWeightOverline: 400,
+  fontWeightOverline: 500,
+  /**
+   *  Type: font-weight
+   */
+  fontWeightLegal: 500,
   /**
    *  Type: font-size
    */
-  fontSizeH1: '4.5rem',
+  fontSizeH1: '3rem',
   /**
    *  Type: font-size
    */
-  fontSizeH2: '3rem',
+  fontSizeH2: '2.25rem',
   /**
    *  Type: font-size
    */
-  fontSizeH3: '2.25rem',
+  fontSizeH3: '1.5rem',
   /**
    *  Type: font-size
    */
-  fontSizeH4: '1.75rem',
+  fontSizeH4: '1.25rem',
   /**
    *  Type: font-size
    */
-  fontSizeH5: '1.5rem',
+  fontSizeH5: '1rem',
   /**
    *  Type: font-size
    */
-  fontSizeH6: '1.25rem',
+  fontSizeH6: '0.75rem',
   /**
    *  Type: font-size
    */
-  fontSizeSubtitle: '1rem',
+  fontSizeSubtitle: '1.125rem',
   /**
    *  Type: font-size
    */
@@ -294,23 +318,31 @@ export const tokens = {
   /**
    *  Type: font-size
    */
-  fontSizeButton: '0.875rem',
+  fontSizeBodyTiny: '0.8125rem',
   /**
    *  Type: font-size
    */
-  fontSizeCaption: '0.75rem',
+  fontSizeButtonLarge: '1.25rem',
   /**
    *  Type: font-size
    */
-  fontSizeOverline: '0.625rem',
+  fontSizeButton: '0.9375rem',
+  /**
+   *  Type: font-size
+   */
+  fontSizeOverline: '0.75rem',
+  /**
+   *  Type: font-size
+   */
+  fontSizeLegal: '0.625rem',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingH1: '-0.09375rem',
+  letterSpacingH1: '0rem',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingH2: '-0.03125rem',
+  letterSpacingH2: '0rem',
   /**
    *  Type: letter-spacing
    */
@@ -318,7 +350,7 @@ export const tokens = {
   /**
    *  Type: letter-spacing
    */
-  letterSpacingH4: '0.015625rem',
+  letterSpacingH4: '0rem',
   /**
    *  Type: letter-spacing
    */
@@ -326,19 +358,19 @@ export const tokens = {
   /**
    *  Type: letter-spacing
    */
-  letterSpacingH6: '0.009375rem',
+  letterSpacingH6: '0rem',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingSubtitle: '0.009375rem',
+  letterSpacingSubtitle: '0rem',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingSubtitleSmall: '0.00625rem',
+  letterSpacingSubtitleSmall: '0rem',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingBody: '0.03125rem',
+  letterSpacingBody: '0rem',
   /**
    *  Type: letter-spacing
    */
@@ -346,15 +378,15 @@ export const tokens = {
   /**
    *  Type: letter-spacing
    */
-  letterSpacingButton: '0.078125rem',
+  letterSpacingButton: '0rem',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingCaption: '0.025rem',
+  letterSpacingCaption: '0rem',
   /**
    *  Type: letter-spacing
    */
-  letterSpacingOverline: '0.09375rem',
+  letterSpacingOverline: '0rem',
   /**
    *  For things like switches, control boxes, etc...
    *  Type: time

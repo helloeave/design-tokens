@@ -1,6 +1,6 @@
 ///
 /// Teikn v0.1.4
-/// Generated Wed Jan 16 2019 12:48:37
+/// Generated Thu Mar 21 2019 13:29:22
 ///
 /// This file is generated and should be commited to source control
 ///
@@ -56,31 +56,35 @@ $token-values: (
 
   color-text-light-icon: rgba(255, 255, 255, 0.5),
 
-  font-h-1: unquote('#{700 4.5rem / 1.2 Galano, Verdana, sans-serif}'),
+  font-h-1: unquote('#{700 3rem / null Galano, Verdana, sans-serif}'),
 
-  font-h-2: unquote('#{700 3rem / 1.2 Galano, Verdana, sans-serif}'),
+  font-h-2: unquote('#{700 2.25rem / null Galano, Verdana, sans-serif}'),
 
-  font-h-3: unquote('#{700 2.25rem / 1.2 Galano, Verdana, sans-serif}'),
+  font-h-3: unquote('#{700 1.5rem / null Galano, Verdana, sans-serif}'),
 
-  font-h-4: unquote('#{700 1.75rem / 1.2 Galano, Verdana, sans-serif}'),
+  font-h-4: unquote('#{700 1.25rem / null Galano, Verdana, sans-serif}'),
 
-  font-h-5: unquote('#{700 1.5rem / 1.2 Galano, Verdana, sans-serif}'),
+  font-h-5: unquote('#{700 1rem / null Galano, Verdana, sans-serif}'),
 
-  font-h-6: unquote('#{600 1.25rem / 1.2 Galano, Verdana, sans-serif}'),
+  font-h-6: unquote('#{700 0.75rem / null Galano, Verdana, sans-serif}'),
 
-  font-subtitle: unquote('#{400 1rem / 1.2 "Maison Neue", Helvetica, sans-serif}'),
+  font-subtitle: unquote('#{500 1.125rem / null "Maison Neue", Helvetica, sans-serif}'),
 
-  font-subtitle-small: unquote('#{600 0.875rem / 1.2 "Maison Neue", Helvetica, sans-serif}'),
+  font-subtitle-small: unquote('#{500 0.875rem / null "Maison Neue", Helvetica, sans-serif}'),
 
-  font-body: unquote('#{400 1rem / 1.2 "Maison Neue", Helvetica, sans-serif}'),
+  font-body: unquote('#{500 1rem / null "Maison Neue", Helvetica, sans-serif}'),
 
-  font-body-small: unquote('#{400 0.875rem / 1.2 "Maison Neue", Helvetica, sans-serif}'),
+  font-body-small: unquote('#{500 0.875rem / null "Maison Neue", Helvetica, sans-serif}'),
 
-  font-button: unquote('#{700 0.875rem / 1.2 Galano, Verdana, sans-serif}'),
+  font-body-tiny: unquote('#{500 0.8125rem / null "Maison Neue", Helvetica, sans-serif}'),
 
-  font-caption: unquote('#{400 0.75rem / 1.2 "Maison Neue", Helvetica, sans-serif}'),
+  font-button-large: unquote('#{700 1.25rem / null Galano, Verdana, sans-serif}'),
 
-  font-overline: unquote('#{400 0.625rem / 1.2 "Maison Neue", Helvetica, sans-serif}'),
+  font-button: unquote('#{700 0.9375rem / null Galano, Verdana, sans-serif}'),
+
+  font-overline: unquote('#{500 0.75rem / null "Maison Neue", Helvetica, sans-serif}'),
+
+  font-legal: unquote('#{500 0.625rem / null "Maison Neue", Helvetica, sans-serif}'),
 
   font-family-h-1: unquote('#{Galano, Verdana, sans-serif}'),
 
@@ -102,11 +106,15 @@ $token-values: (
 
   font-family-body-small: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
 
+  font-family-body-tiny: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
+
+  font-family-button-large: unquote('#{Galano, Verdana, sans-serif}'),
+
   font-family-button: unquote('#{Galano, Verdana, sans-serif}'),
 
-  font-family-caption: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
-
   font-family-overline: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
+
+  font-family-legal: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
 
   font-weight-h-1: 700,
 
@@ -118,35 +126,39 @@ $token-values: (
 
   font-weight-h-5: 700,
 
-  font-weight-h-6: 600,
+  font-weight-h-6: 700,
 
-  font-weight-subtitle: 400,
+  font-weight-subtitle: 500,
 
-  font-weight-subtitle-small: 600,
+  font-weight-subtitle-small: 500,
 
-  font-weight-body: 400,
+  font-weight-body: 500,
 
-  font-weight-body-small: 400,
+  font-weight-body-small: 500,
+
+  font-weight-body-tiny: 500,
 
   font-weight-button: 700,
 
-  font-weight-caption: 400,
+  font-weight-button-large: 700,
 
-  font-weight-overline: 400,
+  font-weight-overline: 500,
 
-  font-size-h-1: 4.5rem,
+  font-weight-legal: 500,
 
-  font-size-h-2: 3rem,
+  font-size-h-1: 3rem,
 
-  font-size-h-3: 2.25rem,
+  font-size-h-2: 2.25rem,
 
-  font-size-h-4: 1.75rem,
+  font-size-h-3: 1.5rem,
 
-  font-size-h-5: 1.5rem,
+  font-size-h-4: 1.25rem,
 
-  font-size-h-6: 1.25rem,
+  font-size-h-5: 1rem,
 
-  font-size-subtitle: 1rem,
+  font-size-h-6: 0.75rem,
+
+  font-size-subtitle: 1.125rem,
 
   font-size-subtitle-small: 0.875rem,
 
@@ -154,37 +166,41 @@ $token-values: (
 
   font-size-body-small: 0.875rem,
 
-  font-size-button: 0.875rem,
+  font-size-body-tiny: 0.8125rem,
 
-  font-size-caption: 0.75rem,
+  font-size-button-large: 1.25rem,
 
-  font-size-overline: 0.625rem,
+  font-size-button: 0.9375rem,
 
-  letter-spacing-h-1: -0.09375rem,
+  font-size-overline: 0.75rem,
 
-  letter-spacing-h-2: -0.03125rem,
+  font-size-legal: 0.625rem,
+
+  letter-spacing-h-1: 0rem,
+
+  letter-spacing-h-2: 0rem,
 
   letter-spacing-h-3: 0rem,
 
-  letter-spacing-h-4: 0.015625rem,
+  letter-spacing-h-4: 0rem,
 
   letter-spacing-h-5: 0rem,
 
-  letter-spacing-h-6: 0.009375rem,
+  letter-spacing-h-6: 0rem,
 
-  letter-spacing-subtitle: 0.009375rem,
+  letter-spacing-subtitle: 0rem,
 
-  letter-spacing-subtitle-small: 0.00625rem,
+  letter-spacing-subtitle-small: 0rem,
 
-  letter-spacing-body: 0.03125rem,
+  letter-spacing-body: 0rem,
 
   letter-spacing-body-small: 0.015625rem,
 
-  letter-spacing-button: 0.078125rem,
+  letter-spacing-button: 0rem,
 
-  letter-spacing-caption: 0.025rem,
+  letter-spacing-caption: 0rem,
 
-  letter-spacing-overline: 0.09375rem,
+  letter-spacing-overline: 0rem,
 
   /// For things like switches, control boxes, etc...
   duration-simple-small: 0.1s,
