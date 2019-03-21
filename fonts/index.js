@@ -311,7 +311,17 @@ const lineHeight = [
   {
     name: 'body-small',
     usage: '',
-    value: toRem(0.25),
+    value: 1.2,
+  },
+  {
+    name: 'body-tiny',
+    usage: '',
+    value: 1.2,
+  },
+  {
+    name: 'button-large',
+    usage: '',
+    value: 1.2,
   },
   {
     name: 'button',
@@ -325,6 +335,11 @@ const lineHeight = [
   },
   {
     name: 'overline',
+    usage: '',
+    value: 1.2,
+  },
+  {
+    name: 'legal',
     usage: '',
     value: 1.2,
   },
@@ -410,6 +425,7 @@ const getWeight = getFromMap(weight);
 
 const font = ({ family, size, lineHeight, weight }) =>
   `${getWeight(weight)} ${getSize(size)} / ${getLineHeight(lineHeight)} ${getFamily(family)}`;
+
 const fonts = [
   'h1',
   'h2',
@@ -432,7 +448,7 @@ const fonts = [
   value: font({
     family: `font-family-${name}`,
     size: `font-size-${name}`,
-    lineHeight: `font-line-height-${name}`,
+    lineHeight: `line-height-${name}`,
     weight: `font-weight-${name}`,
   }),
 }));
