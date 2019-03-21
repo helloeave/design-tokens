@@ -98,63 +98,63 @@ export const tokens = {
   /**
    *  Type: font
    */
-  fontH1: '700 3rem / null Galano, Verdana, sans-serif',
+  fontH1: '700 3rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH2: '700 2.25rem / null Galano, Verdana, sans-serif',
+  fontH2: '700 2.25rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH3: '700 1.5rem / null Galano, Verdana, sans-serif',
+  fontH3: '700 1.5rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH4: '700 1.25rem / null Galano, Verdana, sans-serif',
+  fontH4: '700 1.25rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH5: '700 1rem / null Galano, Verdana, sans-serif',
+  fontH5: '700 1rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH6: '700 0.75rem / null Galano, Verdana, sans-serif',
+  fontH6: '700 0.75rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontSubtitle: '500 1.125rem / null "Maison Neue", Helvetica, sans-serif',
+  fontSubtitle: '500 1.125rem / 1.2 "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontSubtitleSmall: '500 0.875rem / null "Maison Neue", Helvetica, sans-serif',
+  fontSubtitleSmall: '500 0.875rem / 1.2 "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontBody: '500 1rem / null "Maison Neue", Helvetica, sans-serif',
+  fontBody: '500 1rem / 1.2 "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontBodySmall: '500 0.875rem / null "Maison Neue", Helvetica, sans-serif',
+  fontBodySmall: '500 0.875rem / 1.2 "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontBodyTiny: '500 0.8125rem / null "Maison Neue", Helvetica, sans-serif',
+  fontBodyTiny: '500 0.8125rem / 1.2 "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontButtonLarge: '700 1.25rem / null Galano, Verdana, sans-serif',
+  fontButtonLarge: '700 1.25rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontButton: '700 0.9375rem / null Galano, Verdana, sans-serif',
+  fontButton: '700 0.9375rem / 1.2 Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontOverline: '500 0.75rem / null "Maison Neue", Helvetica, sans-serif',
+  fontOverline: '500 0.75rem / 1.2 "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontLegal: '500 0.625rem / null "Maison Neue", Helvetica, sans-serif',
+  fontLegal: '500 0.625rem / 1.2 "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-family
    */
