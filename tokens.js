@@ -122,11 +122,11 @@ export const tokens = {
   /**
    *  Type: font
    */
-  fontSubtitle: '500 1.125rem / 1.2 "Maison Neue", Helvetica, sans-serif',
+  fontSubtitle: '700 1.125rem / 1.2 "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontSubtitleSmall: '500 0.875rem / 1.2 "Maison Neue", Helvetica, sans-serif',
+  fontSubtitleSmall: '700 0.875rem / 1.2 "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
@@ -242,11 +242,11 @@ export const tokens = {
   /**
    *  Type: font-weight
    */
-  fontWeightSubtitle: 500,
+  fontWeightSubtitle: 700,
   /**
    *  Type: font-weight
    */
-  fontWeightSubtitleSmall: 500,
+  fontWeightSubtitleSmall: 700,
   /**
    *  Type: font-weight
    */
