@@ -56,12 +56,12 @@ const weight = [
   {
     name: 'subtitle',
     usage: '',
-    value: fontWeight('medium'),
+    value: fontWeight('bold'),
   },
   {
     name: 'subtitle-small',
     usage: '',
-    value: fontWeight('medium'),
+    value: fontWeight('bold'),
   },
   {
     name: 'body',
