@@ -4,6 +4,7 @@ const { prefix, type, toRem, getFromMap } = require('../utils');
 // weight
 // transform
 // size
+// lineHeight
 // letterSpacing
 
 const fontFamilies = {
@@ -15,7 +16,8 @@ const fontFamily = family => fontFamilies[family];
 const fontWeights = {
   light: 300,
   normal: 400,
-  medium: 600,
+  medium: 500,
+  semibold: 600,
   bold: 700,
 };
 const fontWeight = weight => fontWeights[weight];
@@ -49,12 +51,12 @@ const weight = [
   {
     name: 'h6',
     usage: '',
-    value: fontWeight('medium'),
+    value: fontWeight('bold'),
   },
   {
     name: 'subtitle',
     usage: '',
-    value: fontWeight('normal'),
+    value: fontWeight('medium'),
   },
   {
     name: 'subtitle-small',
@@ -64,12 +66,17 @@ const weight = [
   {
     name: 'body',
     usage: '',
-    value: fontWeight('normal'),
+    value: fontWeight('medium'),
   },
   {
     name: 'body-small',
     usage: '',
-    value: fontWeight('normal'),
+    value: fontWeight('medium'),
+  },
+  {
+    name: 'body-tiny',
+    usage: '',
+    value: fontWeight('medium'),
   },
   {
     name: 'button',
@@ -77,14 +84,19 @@ const weight = [
     value: fontWeight('bold'),
   },
   {
-    name: 'caption',
+    name: 'button-large',
     usage: '',
-    value: fontWeight('normal'),
+    value: fontWeight('bold'),
   },
   {
     name: 'overline',
     usage: '',
-    value: fontWeight('normal'),
+    value: fontWeight('medium'),
+  },
+  {
+    name: 'legal',
+    usage: '',
+    value: fontWeight('medium'),
   },
 ]
   .map(prefix('font-weight'))
@@ -94,37 +106,37 @@ const fontSizes = [
   {
     name: 'h1',
     usage: '',
-    value: toRem(72),
+    value: toRem(48),
   },
   {
     name: 'h2',
     usage: '',
-    value: toRem(48),
+    value: toRem(36),
   },
   {
     name: 'h3',
     usage: '',
-    value: toRem(36),
+    value: toRem(24),
   },
   {
     name: 'h4',
     usage: '',
-    value: toRem(28),
+    value: toRem(20),
   },
   {
     name: 'h5',
     usage: '',
-    value: toRem(24),
+    value: toRem(16),
   },
   {
     name: 'h6',
     usage: '',
-    value: toRem(20),
+    value: toRem(12),
   },
   {
     name: 'subtitle',
     usage: '',
-    value: toRem(16),
+    value: toRem(18),
   },
   {
     name: 'subtitle-small',
@@ -142,17 +154,27 @@ const fontSizes = [
     value: toRem(14),
   },
   {
-    name: 'button',
+    name: 'body-tiny',
     usage: '',
-    value: toRem(14),
+    value: toRem(13),
   },
   {
-    name: 'caption',
+    name: 'button-large',
+    usage: '',
+    value: toRem(20),
+  },
+  {
+    name: 'button',
+    usage: '',
+    value: toRem(15),
+  },
+  {
+    name: 'overline',
     usage: '',
     value: toRem(12),
   },
   {
-    name: 'overline',
+    name: 'legal',
     usage: '',
     value: toRem(10),
   },
@@ -212,17 +234,27 @@ const family = [
     value: fontFamily('primary'),
   },
   {
+    name: 'body-tiny',
+    usage: '',
+    value: fontFamily('primary'),
+  },
+  {
+    name: 'button-large',
+    usage: '',
+    value: fontFamily('secondary'),
+  },
+  {
     name: 'button',
     usage: '',
     value: fontFamily('secondary'),
   },
   {
-    name: 'caption',
+    name: 'overline',
     usage: '',
     value: fontFamily('primary'),
   },
   {
-    name: 'overline',
+    name: 'legal',
     usage: '',
     value: fontFamily('primary'),
   },
@@ -230,51 +262,51 @@ const family = [
   .map(prefix('font-family'))
   .map(type('font-family'));
 
-const letterSpacing = [
+const lineHeight = [
   {
     name: 'h1',
     usage: '',
-    value: toRem(-1.5),
+    value: 1.2,
   },
   {
     name: 'h2',
     usage: '',
-    value: toRem(-0.5),
+    value: 1.2,
   },
   {
     name: 'h3',
     usage: '',
-    value: toRem(0),
+    value: 1.2,
   },
   {
     name: 'h4',
     usage: '',
-    value: toRem(0.25),
+    value: 1.2,
   },
   {
     name: 'h5',
     usage: '',
-    value: toRem(0),
+    value: 1.2,
   },
   {
     name: 'h6',
     usage: '',
-    value: toRem(0.15),
+    value: 1.2,
   },
   {
     name: 'subtitle',
     usage: '',
-    value: toRem(0.15),
+    value: 1.2,
   },
   {
     name: 'subtitle-small',
     usage: '',
-    value: toRem(0.1),
+    value: 1.2,
   },
   {
     name: 'body',
     usage: '',
-    value: toRem(0.5),
+    value: 1.2,
   },
   {
     name: 'body-small',
@@ -284,17 +316,88 @@ const letterSpacing = [
   {
     name: 'button',
     usage: '',
-    value: toRem(1.25),
+    value: 1.2,
   },
   {
     name: 'caption',
     usage: '',
-    value: toRem(0.4),
+    value: 1.2,
   },
   {
     name: 'overline',
     usage: '',
-    value: toRem(1.5),
+    value: 1.2,
+  },
+]
+  .map(prefix('line-height'))
+  .map(type('line-height'));
+
+
+const letterSpacing = [
+  {
+    name: 'h1',
+    usage: '',
+    value: toRem(0),
+  },
+  {
+    name: 'h2',
+    usage: '',
+    value: toRem(0),
+  },
+  {
+    name: 'h3',
+    usage: '',
+    value: toRem(0),
+  },
+  {
+    name: 'h4',
+    usage: '',
+    value: toRem(0),
+  },
+  {
+    name: 'h5',
+    usage: '',
+    value: toRem(0),
+  },
+  {
+    name: 'h6',
+    usage: '',
+    value: toRem(0),
+  },
+  {
+    name: 'subtitle',
+    usage: '',
+    value: toRem(0),
+  },
+  {
+    name: 'subtitle-small',
+    usage: '',
+    value: toRem(0),
+  },
+  {
+    name: 'body',
+    usage: '',
+    value: toRem(0),
+  },
+  {
+    name: 'body-small',
+    usage: '',
+    value: toRem(0.25),
+  },
+  {
+    name: 'button',
+    usage: '',
+    value: toRem(0),
+  },
+  {
+    name: 'caption',
+    usage: '',
+    value: toRem(0),
+  },
+  {
+    name: 'overline',
+    usage: '',
+    value: toRem(0),
   },
 ]
   .map(prefix('letter-spacing'))
@@ -302,10 +405,11 @@ const letterSpacing = [
 
 const getFamily = getFromMap(family);
 const getSize = getFromMap(fontSizes);
+const getLineHeight = getFromMap(lineHeight);
 const getWeight = getFromMap(weight);
 
-const font = ({ family, size, weight }) =>
-  `${getWeight(weight)} ${getSize(size)} / 1.2 ${getFamily(family)}`;
+const font = ({ family, size, lineHeight, weight }) =>
+  `${getWeight(weight)} ${getSize(size)} / ${getLineHeight(lineHeight)} ${getFamily(family)}`;
 const fonts = [
   'h1',
   'h2',
@@ -317,15 +421,18 @@ const fonts = [
   'subtitle-small',
   'body',
   'body-small',
+  'body-tiny',
+  'button-large',
   'button',
-  'caption',
   'overline',
+  'legal',
 ].map(name => ({
   name: `font-${name}`,
   type: 'font',
   value: font({
     family: `font-family-${name}`,
     size: `font-size-${name}`,
+    lineHeight: `font-line-height-${name}`,
     weight: `font-weight-${name}`,
   }),
 }));
@@ -336,4 +443,5 @@ module.exports = {
   fontSizes,
   fonts,
   letterSpacing,
+  lineHeight,
 };
