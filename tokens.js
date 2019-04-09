@@ -48,8 +48,8 @@ export const tokens = {
    */
   colorOnSurface: '#1f5644',
   /**
- *  Type: color
- */
+   *  Type: color
+   */
   colorOnSurfaceLight: '#f1efef',
   /**
    *  Type: color

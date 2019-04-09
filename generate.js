@@ -1,4 +1,3 @@
-// const { TokenWriter } = require('teikn');
 const { TokenWriter } = require('teikn');
 const scss = require('teikn/src/generators/generator-map-scss');
 const tokens = require('./raw-tokens');
