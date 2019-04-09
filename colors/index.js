@@ -109,6 +109,10 @@ const themeColors = [
     value: namedColors.forest,
   },
   {
+    name: 'on-surface-light',
+    value: namedColors.stone,
+  },
+  {
     name: 'on-error',
     value: namedColors.white,
   },
