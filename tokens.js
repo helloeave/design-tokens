@@ -2,7 +2,7 @@ export const tokens = {
   /**
    *  Type: color
    */
-  colorPrimary: '#1f5644',
+  colorPrimary: '#273653',
   /**
    *  Type: color
    */
@@ -18,7 +18,11 @@ export const tokens = {
   /**
    *  Type: color
    */
-  colorSurface: '#f7fafa',
+  colorSurface: '#fefefe',
+  /**
+   *  Type: color
+   */
+  colorButton: '#46b6ff',
   /**
    *  Type: color
    */
@@ -62,7 +66,7 @@ export const tokens = {
   /**
    *  Type: color
    */
-  colorTextDarkPrimary: 'rgba(45, 45, 45, 0.87)',
+  colorTextDarkPrimary: 'rgba(142, 146, 156, 0.87)',
   /**
    *  Type: color
    */
@@ -70,15 +74,15 @@ export const tokens = {
   /**
    *  Type: color
    */
-  colorTextDarkHint: 'rgba(45, 45, 45, 0.38)',
+  colorTextDarkHint: 'rgba(142, 146, 156, 0.38)',
   /**
    *  Type: color
    */
-  colorTextDarkDisabled: 'rgba(45, 45, 45, 0.38)',
+  colorTextDarkDisabled: 'rgba(142, 146, 156, 0.38)',
   /**
    *  Type: color
    */
-  colorTextDarkIcon: 'rgba(45, 45, 45, 0.38)',
+  colorTextDarkIcon: 'rgba(142, 146, 156, 0.38)',
   /**
    *  Type: color
    */
@@ -102,123 +106,129 @@ export const tokens = {
   /**
    *  Type: font
    */
-  fontH1: '700 3rem / 1.2 Galano, Verdana, sans-serif',
+  fontH1: '700 3rem / 1.2 OpenSans, Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH2: '700 2.25rem / 1.2 Galano, Verdana, sans-serif',
+  fontH2: '700 2.25rem / 1.2 OpenSans, Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH3: '700 1.5rem / 1.2 Galano, Verdana, sans-serif',
+  fontH3: '700 1.5rem / 1.2 OpenSans, Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH4: '700 1.25rem / 1.2 Galano, Verdana, sans-serif',
+  fontH4: '700 1.25rem / 1.2 OpenSans, Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH5: '700 1rem / 1.2 Galano, Verdana, sans-serif',
+  fontH5: '700 1rem / 1.2 OpenSans, Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontH6: '700 0.75rem / 1.2 Galano, Verdana, sans-serif',
+  fontH6: '700 0.75rem / 1.2 OpenSans, Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontSubtitle: '700 1.125rem / 1.2 "Maison Neue", Helvetica, sans-serif',
+  fontSubtitle:
+    '700 1.125rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontSubtitleSmall: '700 0.875rem / 1.2 "Maison Neue", Helvetica, sans-serif',
+  fontSubtitleSmall:
+    '700 0.875rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontBody: '500 1rem / 1.2 "Maison Neue", Helvetica, sans-serif',
+  fontBody: '500 1rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontBodySmall: '500 0.875rem / 1.2 "Maison Neue", Helvetica, sans-serif',
+  fontBodySmall:
+    '500 0.875rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontBodyTiny: '500 0.8125rem / 1.2 "Maison Neue", Helvetica, sans-serif',
+  fontBodyTiny:
+    '500 0.8125rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontButtonLarge: '700 1.25rem / 1.2 Galano, Verdana, sans-serif',
+  fontButtonLarge: '700 1.25rem / 1.2 OpenSans, Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontButton: '700 0.9375rem / 1.2 Galano, Verdana, sans-serif',
+  fontButton: '700 0.9375rem / 1.2 OpenSans, Galano, Verdana, sans-serif',
   /**
    *  Type: font
    */
-  fontOverline: '500 0.75rem / 1.2 "Maison Neue", Helvetica, sans-serif',
+  fontOverline:
+    '500 0.75rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontLegal: '500 0.625rem / 1.2 "Maison Neue", Helvetica, sans-serif',
+  fontLegal:
+    '500 0.625rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyH1: 'Galano, Verdana, sans-serif',
+  fontFamilyH1: 'OpenSans, Galano, Verdana, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyH2: 'Galano, Verdana, sans-serif',
+  fontFamilyH2: 'OpenSans, Galano, Verdana, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyH3: 'Galano, Verdana, sans-serif',
+  fontFamilyH3: 'OpenSans, Galano, Verdana, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyH4: 'Galano, Verdana, sans-serif',
+  fontFamilyH4: 'OpenSans, Galano, Verdana, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyH5: 'Galano, Verdana, sans-serif',
+  fontFamilyH5: 'OpenSans, Galano, Verdana, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyH6: 'Galano, Verdana, sans-serif',
+  fontFamilyH6: 'OpenSans, Galano, Verdana, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilySubtitle: '"Maison Neue", Helvetica, sans-serif',
+  fontFamilySubtitle: 'OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilySubtitleSmall: '"Maison Neue", Helvetica, sans-serif',
+  fontFamilySubtitleSmall: 'OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyBody: '"Maison Neue", Helvetica, sans-serif',
+  fontFamilyBody: 'OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyBodySmall: '"Maison Neue", Helvetica, sans-serif',
+  fontFamilyBodySmall: 'OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyBodyTiny: '"Maison Neue", Helvetica, sans-serif',
+  fontFamilyBodyTiny: 'OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyButtonLarge: 'Galano, Verdana, sans-serif',
+  fontFamilyButtonLarge: 'OpenSans, Galano, Verdana, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyButton: 'Galano, Verdana, sans-serif',
+  fontFamilyButton: 'OpenSans, Galano, Verdana, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyOverline: '"Maison Neue", Helvetica, sans-serif',
+  fontFamilyOverline: 'OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-family
    */
-  fontFamilyLegal: '"Maison Neue", Helvetica, sans-serif',
+  fontFamilyLegal: 'OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-weight
    */

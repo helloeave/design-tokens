@@ -1,6 +1,6 @@
 ///
 /// Teikn v0.1.4
-/// Generated Tue Apr 09 2019 11:28:27
+/// Generated Thu Oct 10 2019 11:18:40
 ///
 /// This file is generated and should be commited to source control
 ///
@@ -8,7 +8,7 @@
 
 // prettier-ignore
 $token-values: (
-  color-primary: rgb(31, 86, 68),
+  color-primary: rgb(39, 54, 83),
 
   color-secondary: rgb(218, 234, 232),
 
@@ -16,7 +16,9 @@ $token-values: (
 
   color-background: rgb(254, 254, 254),
 
-  color-surface: rgb(247, 250, 250),
+  color-surface: rgb(254, 254, 254),
+
+  color-button: rgb(70, 182, 255),
 
   color-error: rgb(254, 74, 73),
 
@@ -38,15 +40,15 @@ $token-values: (
 
   color-on-disabled: rgb(254, 254, 254),
 
-  color-text-dark-primary: rgba(45, 45, 45, 0.87),
+  color-text-dark-primary: rgba(142, 146, 156, 0.87),
 
   color-text-dark-secondary: rgba(89, 88, 88, 0.87),
 
-  color-text-dark-hint: rgba(45, 45, 45, 0.38),
+  color-text-dark-hint: rgba(142, 146, 156, 0.38),
 
-  color-text-dark-disabled: rgba(45, 45, 45, 0.38),
+  color-text-dark-disabled: rgba(142, 146, 156, 0.38),
 
-  color-text-dark-icon: rgba(45, 45, 45, 0.38),
+  color-text-dark-icon: rgba(142, 146, 156, 0.38),
 
   color-text-light-primary: rgb(255, 255, 255),
 
@@ -58,65 +60,65 @@ $token-values: (
 
   color-text-light-icon: rgba(255, 255, 255, 0.5),
 
-  font-h-1: unquote('#{700 3rem / 1.2 Galano, Verdana, sans-serif}'),
+  font-h-1: unquote('#{700 3rem / 1.2 OpenSans, Galano, Verdana, sans-serif}'),
 
-  font-h-2: unquote('#{700 2.25rem / 1.2 Galano, Verdana, sans-serif}'),
+  font-h-2: unquote('#{700 2.25rem / 1.2 OpenSans, Galano, Verdana, sans-serif}'),
 
-  font-h-3: unquote('#{700 1.5rem / 1.2 Galano, Verdana, sans-serif}'),
+  font-h-3: unquote('#{700 1.5rem / 1.2 OpenSans, Galano, Verdana, sans-serif}'),
 
-  font-h-4: unquote('#{700 1.25rem / 1.2 Galano, Verdana, sans-serif}'),
+  font-h-4: unquote('#{700 1.25rem / 1.2 OpenSans, Galano, Verdana, sans-serif}'),
 
-  font-h-5: unquote('#{700 1rem / 1.2 Galano, Verdana, sans-serif}'),
+  font-h-5: unquote('#{700 1rem / 1.2 OpenSans, Galano, Verdana, sans-serif}'),
 
-  font-h-6: unquote('#{700 0.75rem / 1.2 Galano, Verdana, sans-serif}'),
+  font-h-6: unquote('#{700 0.75rem / 1.2 OpenSans, Galano, Verdana, sans-serif}'),
 
-  font-subtitle: unquote('#{700 1.125rem / 1.2 "Maison Neue", Helvetica, sans-serif}'),
+  font-subtitle: unquote('#{700 1.125rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif}'),
 
-  font-subtitle-small: unquote('#{700 0.875rem / 1.2 "Maison Neue", Helvetica, sans-serif}'),
+  font-subtitle-small: unquote('#{700 0.875rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif}'),
 
-  font-body: unquote('#{500 1rem / 1.2 "Maison Neue", Helvetica, sans-serif}'),
+  font-body: unquote('#{500 1rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif}'),
 
-  font-body-small: unquote('#{500 0.875rem / 1.2 "Maison Neue", Helvetica, sans-serif}'),
+  font-body-small: unquote('#{500 0.875rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif}'),
 
-  font-body-tiny: unquote('#{500 0.8125rem / 1.2 "Maison Neue", Helvetica, sans-serif}'),
+  font-body-tiny: unquote('#{500 0.8125rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif}'),
 
-  font-button-large: unquote('#{700 1.25rem / 1.2 Galano, Verdana, sans-serif}'),
+  font-button-large: unquote('#{700 1.25rem / 1.2 OpenSans, Galano, Verdana, sans-serif}'),
 
-  font-button: unquote('#{700 0.9375rem / 1.2 Galano, Verdana, sans-serif}'),
+  font-button: unquote('#{700 0.9375rem / 1.2 OpenSans, Galano, Verdana, sans-serif}'),
 
-  font-overline: unquote('#{500 0.75rem / 1.2 "Maison Neue", Helvetica, sans-serif}'),
+  font-overline: unquote('#{500 0.75rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif}'),
 
-  font-legal: unquote('#{500 0.625rem / 1.2 "Maison Neue", Helvetica, sans-serif}'),
+  font-legal: unquote('#{500 0.625rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif}'),
 
-  font-family-h-1: unquote('#{Galano, Verdana, sans-serif}'),
+  font-family-h-1: unquote('#{OpenSans, Galano, Verdana, sans-serif}'),
 
-  font-family-h-2: unquote('#{Galano, Verdana, sans-serif}'),
+  font-family-h-2: unquote('#{OpenSans, Galano, Verdana, sans-serif}'),
 
-  font-family-h-3: unquote('#{Galano, Verdana, sans-serif}'),
+  font-family-h-3: unquote('#{OpenSans, Galano, Verdana, sans-serif}'),
 
-  font-family-h-4: unquote('#{Galano, Verdana, sans-serif}'),
+  font-family-h-4: unquote('#{OpenSans, Galano, Verdana, sans-serif}'),
 
-  font-family-h-5: unquote('#{Galano, Verdana, sans-serif}'),
+  font-family-h-5: unquote('#{OpenSans, Galano, Verdana, sans-serif}'),
 
-  font-family-h-6: unquote('#{Galano, Verdana, sans-serif}'),
+  font-family-h-6: unquote('#{OpenSans, Galano, Verdana, sans-serif}'),
 
-  font-family-subtitle: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
+  font-family-subtitle: unquote('#{OpenSans, "Maison Neue", Helvetica, sans-serif}'),
 
-  font-family-subtitle-small: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
+  font-family-subtitle-small: unquote('#{OpenSans, "Maison Neue", Helvetica, sans-serif}'),
 
-  font-family-body: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
+  font-family-body: unquote('#{OpenSans, "Maison Neue", Helvetica, sans-serif}'),
 
-  font-family-body-small: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
+  font-family-body-small: unquote('#{OpenSans, "Maison Neue", Helvetica, sans-serif}'),
 
-  font-family-body-tiny: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
+  font-family-body-tiny: unquote('#{OpenSans, "Maison Neue", Helvetica, sans-serif}'),
 
-  font-family-button-large: unquote('#{Galano, Verdana, sans-serif}'),
+  font-family-button-large: unquote('#{OpenSans, Galano, Verdana, sans-serif}'),
 
-  font-family-button: unquote('#{Galano, Verdana, sans-serif}'),
+  font-family-button: unquote('#{OpenSans, Galano, Verdana, sans-serif}'),
 
-  font-family-overline: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
+  font-family-overline: unquote('#{OpenSans, "Maison Neue", Helvetica, sans-serif}'),
 
-  font-family-legal: unquote('#{"Maison Neue", Helvetica, sans-serif}'),
+  font-family-legal: unquote('#{OpenSans, "Maison Neue", Helvetica, sans-serif}'),
 
   font-weight-h-1: 700,
 
@@ -277,4 +279,4 @@ $token-values: (
     @error "Token '#{$name}' does not exist.";
   }
   @return map-get($token-values, $name);
-}  
+}

@@ -5,14 +5,17 @@ const { prefix, type, getFromMap } = require('../utils');
 const namedColors = {
   alabaster: '#fafafa', // should be deprecated in favor of aquaHaze
   aluminum: '#999898',
-  ashGray: '#b7b7b7',
   aquaHaze: '#f7fafa',
+  ashGray: '#b7b7b7',
   black: '#010101',
   bunker: '#2d2d2d',
   carouselPink: '#fcecee',
   creamCan: '#f7ce69',
+  darkBlue: '#273653',
+  darkGrey: '#8e929c',
   deYork: '#6ebe7d',
   diamond: '#cff5ff',
+  electricBlue: '#46b6ff',
   forest: '#1f5644',
   havelockBlue: '#5b90dc',
   hawkesBlue: '#e0ecfd',
@@ -51,7 +54,9 @@ const EMPHASIS = [
   },
 ];
 
-const getEmphasis = getFromMap(EMPHASIS, v => (typeof v === 'number' ? v : undefined));
+const getEmphasis = getFromMap(EMPHASIS, v =>
+  typeof v === 'number' ? v : undefined
+);
 
 const colorWithEmphasis = (color, emphasis) =>
   `rgba(${Color(color)
@@ -62,7 +67,7 @@ const colorWithEmphasis = (color, emphasis) =>
 const themeColors = [
   {
     name: 'primary',
-    value: namedColors.forest,
+    value: namedColors.darkBlue,
   },
   {
     name: 'secondary',
@@ -78,7 +83,11 @@ const themeColors = [
   },
   {
     name: 'surface',
-    value: namedColors.aquaHaze,
+    value: namedColors.white,
+  },
+  {
+    name: 'button',
+    value: namedColors.electricBlue,
   },
   {
     name: 'error',
@@ -125,11 +134,11 @@ const themeColors = [
 const textColors = [
   {
     dark: {
-      primary: colorWithEmphasis(namedColors.bunker, 'high'),
+      primary: colorWithEmphasis(namedColors.darkGrey, 'high'),
       secondary: colorWithEmphasis(namedColors.slate, 'high'),
-      hint: colorWithEmphasis(namedColors.bunker, 'disabled'),
-      disabled: colorWithEmphasis(namedColors.bunker, 'disabled'),
-      icon: colorWithEmphasis(namedColors.bunker, 'disabled'),
+      hint: colorWithEmphasis(namedColors.darkGrey, 'disabled'),
+      disabled: colorWithEmphasis(namedColors.darkGrey, 'disabled'),
+      icon: colorWithEmphasis(namedColors.darkGrey, 'disabled'),
     },
   },
   {
@@ -150,9 +159,15 @@ const textColors = [
 }, {});
 
 const colors = [
-  ...themeColors.reduce((acc, token) => [...acc, { ...token, name: `color-${token.name}` }], []),
+  ...themeColors.reduce(
+    (acc, token) => [...acc, { ...token, name: `color-${token.name}` }],
+    []
+  ),
   ...Object.keys(textColors).reduce(
-    (acc, name) => [...acc, { name: `color-${name}`, type: 'color', value: textColors[name] }],
+    (acc, name) => [
+      ...acc,
+      { name: `color-${name}`, type: 'color', value: textColors[name] },
+    ],
     []
   ),
 ];

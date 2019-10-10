@@ -8,8 +8,8 @@ const { prefix, type, toRem, getFromMap } = require('../utils');
 // letterSpacing
 
 const fontFamilies = {
-  primary: '"Maison Neue", Helvetica, sans-serif',
-  secondary: 'Galano, Verdana, sans-serif',
+  primary: 'OpenSans, "Maison Neue", Helvetica, sans-serif',
+  secondary: 'OpenSans, Galano, Verdana, sans-serif',
 };
 const fontFamily = family => fontFamilies[family];
 
@@ -347,7 +347,6 @@ const lineHeight = [
   .map(prefix('line-height'))
   .map(type('line-height'));
 
-
 const letterSpacing = [
   {
     name: 'h1',
@@ -434,7 +433,9 @@ const getLineHeight = getFromMap(lineHeight);
 const getWeight = getFromMap(weight);
 
 const font = ({ family, size, lineHeight, weight }) =>
-  `${getWeight(weight)} ${getSize(size)} / ${getLineHeight(lineHeight)} ${getFamily(family)}`;
+  `${getWeight(weight)} ${getSize(size)} / ${getLineHeight(
+    lineHeight
+  )} ${getFamily(family)}`;
 
 const fonts = [
   'h1',
