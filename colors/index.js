@@ -75,7 +75,7 @@ const themeColors = [
   },
   {
     name: 'accent',
-    value: namedColors.persianGreen,
+    value: namedColors.electricBlue,
   },
   {
     name: 'background',
@@ -86,7 +86,7 @@ const themeColors = [
     value: namedColors.white,
   },
   {
-    name: 'button',
+    name: 'button-primary',
     value: namedColors.electricBlue,
   },
   {

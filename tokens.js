@@ -10,7 +10,7 @@ export const tokens = {
   /**
    *  Type: color
    */
-  colorAccent: '#00aaa5',
+  colorAccent: '#46b6ff',
   /**
    *  Type: color
    */
@@ -22,7 +22,7 @@ export const tokens = {
   /**
    *  Type: color
    */
-  colorButton: '#46b6ff',
+  colorButtonPrimary: '#46b6ff',
   /**
    *  Type: color
    */
@@ -130,13 +130,11 @@ export const tokens = {
   /**
    *  Type: font
    */
-  fontSubtitle:
-    '700 1.125rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
+  fontSubtitle: '700 1.125rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontSubtitleSmall:
-    '700 0.875rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
+  fontSubtitleSmall: '700 0.875rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
@@ -144,13 +142,11 @@ export const tokens = {
   /**
    *  Type: font
    */
-  fontBodySmall:
-    '500 0.875rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
+  fontBodySmall: '500 0.875rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontBodyTiny:
-    '500 0.8125rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
+  fontBodyTiny: '500 0.8125rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
@@ -162,13 +158,11 @@ export const tokens = {
   /**
    *  Type: font
    */
-  fontOverline:
-    '500 0.75rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
+  fontOverline: '500 0.75rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font
    */
-  fontLegal:
-    '500 0.625rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
+  fontLegal: '500 0.625rem / 1.2 OpenSans, "Maison Neue", Helvetica, sans-serif',
   /**
    *  Type: font-family
    */

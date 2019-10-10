@@ -1,6 +1,6 @@
 ///
 /// Teikn v0.1.4
-/// Generated Thu Oct 10 2019 11:18:40
+/// Generated Thu Oct 10 2019 15:5:32
 ///
 /// This file is generated and should be commited to source control
 ///
@@ -12,13 +12,13 @@ $token-values: (
 
   color-secondary: rgb(218, 234, 232),
 
-  color-accent: rgb(0, 170, 165),
+  color-accent: rgb(70, 182, 255),
 
   color-background: rgb(254, 254, 254),
 
   color-surface: rgb(254, 254, 254),
 
-  color-button: rgb(70, 182, 255),
+  color-button-primary: rgb(70, 182, 255),
 
   color-error: rgb(254, 74, 73),
 
@@ -279,4 +279,4 @@ $token-values: (
     @error "Token '#{$name}' does not exist.";
   }
   @return map-get($token-values, $name);
-}
+}  
