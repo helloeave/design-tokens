@@ -83,6 +83,10 @@ const themeColors = [
     value: namedColors.white,
   },
   {
+    name: 'background-dark',
+    value: namedColors.lightGrey,
+  },
+  {
     name: 'surface',
     value: namedColors.white,
   },

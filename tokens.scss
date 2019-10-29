@@ -16,6 +16,8 @@ $token-values: (
 
   color-background: rgb(254, 254, 254),
 
+  color-background-dark: rgb(245, 246, 249),
+
   color-surface: rgb(254, 254, 254),
 
   color-button-primary: rgb(70, 182, 255),
@@ -279,4 +281,4 @@ $token-values: (
     @error "Token '#{$name}' does not exist.";
   }
   @return map-get($token-values, $name);
-}  
+}

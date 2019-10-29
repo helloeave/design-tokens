@@ -18,6 +18,10 @@ export const tokens = {
   /**
    *  Type: color
    */
+  colorBackgroundDark: '#f5f6f9',
+  /**
+   *  Type: color
+   */
   colorSurface: '#fefefe',
   /**
    *  Type: color
