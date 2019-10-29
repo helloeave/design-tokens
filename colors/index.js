@@ -19,6 +19,7 @@ const namedColors = {
   forest: '#1f5644',
   havelockBlue: '#5b90dc',
   hawkesBlue: '#e0ecfd',
+  lightGrey: '#f5f6f9',
   mercury: '#e4e4e4',
   mystic: '#daeae8',
   offYellow: '#fef7e7',
@@ -80,6 +81,10 @@ const themeColors = [
   {
     name: 'background',
     value: namedColors.white,
+  },
+  {
+    name: 'background-dark',
+    value: namedColors.lightGrey,
   },
   {
     name: 'surface',
