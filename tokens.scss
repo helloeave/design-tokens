@@ -1,6 +1,6 @@
 ///
 /// Teikn v0.1.4
-/// Generated Thu Oct 10 2019 15:5:32
+/// Generated Mon Oct 28 2019 20:17:3
 ///
 /// This file is generated and should be commited to source control
 ///
@@ -281,4 +281,4 @@ $token-values: (
     @error "Token '#{$name}' does not exist.";
   }
   @return map-get($token-values, $name);
-}
+}  
