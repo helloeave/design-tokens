@@ -6,7 +6,7 @@ export const tokens = {
   /**
    *  Type: color
    */
-  colorSecondary: '#daeae8',
+  colorSecondary: '#c6e8ff',
   /**
    *  Type: color
    */

@@ -23,6 +23,7 @@ const namedColors = {
   mercury: '#e4e4e4',
   mystic: '#daeae8',
   offYellow: '#fef7e7',
+  onahau: '#c6e8ff',
   persianGreen: '#00aaa5',
   red: '#fe4a49',
   slate: '#595858',
@@ -72,7 +73,7 @@ const themeColors = [
   },
   {
     name: 'secondary',
-    value: namedColors.mystic,
+    value: namedColors.onahau,
   },
   {
     name: 'accent',
