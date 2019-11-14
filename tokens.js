@@ -22,6 +22,14 @@ export const tokens = {
   /**
    *  Type: color
    */
+  colorLink: '#0a87d8',
+  /**
+   *  Type: color
+   */
+  colorLinkHover: '#18a0f8',
+  /**
+   *  Type: color
+   */
   colorSurface: '#fefefe',
   /**
    *  Type: color

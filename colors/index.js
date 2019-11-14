@@ -13,6 +13,8 @@ const namedColors = {
   creamCan: '#f7ce69',
   darkBlue: '#273653',
   darkGrey: '#8e929c',
+  link: '#0a87d8',
+  linkHover: '#18a0f8',
   deYork: '#6ebe7d',
   diamond: '#cff5ff',
   electricBlue: '#46b6ff',
@@ -56,9 +58,7 @@ const EMPHASIS = [
   },
 ];
 
-const getEmphasis = getFromMap(EMPHASIS, v =>
-  typeof v === 'number' ? v : undefined
-);
+const getEmphasis = getFromMap(EMPHASIS, v => (typeof v === 'number' ? v : undefined));
 
 const colorWithEmphasis = (color, emphasis) =>
   `rgba(${Color(color)
@@ -86,6 +86,14 @@ const themeColors = [
   {
     name: 'background-dark',
     value: namedColors.lightGrey,
+  },
+  {
+    name: 'link',
+    value: namedColors.link,
+  },
+  {
+    name: 'link-hover',
+    value: namedColors.linkHover,
   },
   {
     name: 'surface',
@@ -165,15 +173,9 @@ const textColors = [
 }, {});
 
 const colors = [
-  ...themeColors.reduce(
-    (acc, token) => [...acc, { ...token, name: `color-${token.name}` }],
-    []
-  ),
+  ...themeColors.reduce((acc, token) => [...acc, { ...token, name: `color-${token.name}` }], []),
   ...Object.keys(textColors).reduce(
-    (acc, name) => [
-      ...acc,
-      { name: `color-${name}`, type: 'color', value: textColors[name] },
-    ],
+    (acc, name) => [...acc, { name: `color-${name}`, type: 'color', value: textColors[name] }],
     []
   ),
 ];
