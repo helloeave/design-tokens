@@ -148,7 +148,7 @@ const themeColors = [
 const textColors = [
   {
     dark: {
-      primary: colorWithEmphasis(namedColors.darkGrey, 'high'),
+      primary: colorWithEmphasis(namedColors.darkGrey, 1),
       secondary: colorWithEmphasis(namedColors.slate, 'high'),
       hint: colorWithEmphasis(namedColors.darkGrey, 'disabled'),
       disabled: colorWithEmphasis(namedColors.darkGrey, 'disabled'),
