@@ -18,6 +18,7 @@ const namedColors = {
   deYork: '#6ebe7d',
   diamond: '#cff5ff',
   electricBlue: '#46b6ff',
+  error: '#c13131',
   forest: '#1f5644',
   havelockBlue: '#5b90dc',
   hawkesBlue: '#e0ecfd',
@@ -105,7 +106,7 @@ const themeColors = [
   },
   {
     name: 'error',
-    value: namedColors.red,
+    value: namedColors.error,
   },
   {
     name: 'disabled',
@@ -148,7 +149,7 @@ const themeColors = [
 const textColors = [
   {
     dark: {
-      primary: colorWithEmphasis(namedColors.darkGrey, 'high'),
+      primary: colorWithEmphasis(namedColors.darkGrey, 1),
       secondary: colorWithEmphasis(namedColors.slate, 'high'),
       hint: colorWithEmphasis(namedColors.darkGrey, 'disabled'),
       disabled: colorWithEmphasis(namedColors.darkGrey, 'disabled'),
